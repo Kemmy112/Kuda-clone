@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  font-family: Muli, sans-serif;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  height: 65px;
+  background-color: #ffffff;
+  box-shadow: 8px 0px 10px 0px;
+}
+nav .nav-left {
+  width: 20%;
+  margin-top: -30px;
+  margin-left: 70px;
+  cursor: pointer;
+}
+nav .nav-centre {
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+  left: 270px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+  width: 100%;
+  margin-left: -10px;
+}
+nav ul li {
+  list-style-type: none;
+  width: 150px;
+  font-size: 14px;
+  font-weight: 520;
+}
+nav .megadiv {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin-left: -20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+nav .megadiv .div1, nav .megadiv .div2, nav .megadiv .div3, nav .megadiv .div4 {
+  cursor: pointer;
+  outline: 2px solid red;
+  width: 120px;
+}
+nav .megadiv .div1 span, nav .megadiv .div2 span, nav .megadiv .div3 span, nav .megadiv .div4 span {
+  margin-left: 10px;
+}
+nav .megadiv .div1 .wrapper, nav .megadiv .div2 .wrapper, nav .megadiv .div3 .wrapper, nav .megadiv .div4 .wrapper {
+  display: block;
+}
+nav .megadiv .div1 .wrapper .sub1-men, nav .megadiv .div2 .wrapper .sub1-men, nav .megadiv .div3 .wrapper .sub1-men, nav .megadiv .div4 .wrapper .sub1-men {
+  outline: 2px solid red;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 6px;
+  width: 500px;
+  display: flex;
+}
+nav .megadiv .div1 .wrapper .sub1-men .one-left, nav .megadiv .div2 .wrapper .sub1-men .one-left, nav .megadiv .div3 .wrapper .sub1-men .one-left, nav .megadiv .div4 .wrapper .sub1-men .one-left {
+  width: 250px;
+  background-color: #ffffff;
+  outline: 2px solid blue;
+}
+nav .megadiv .div1 .wrapper .sub1-men .one-left ul, nav .megadiv .div2 .wrapper .sub1-men .one-left ul, nav .megadiv .div3 .wrapper .sub1-men .one-left ul, nav .megadiv .div4 .wrapper .sub1-men .one-left ul {
+  display: block;
+  width: 250px;
+  padding: 10px;
+}
+nav .megadiv .div1 .wrapper .sub1-men .one-left li, nav .megadiv .div2 .wrapper .sub1-men .one-left li, nav .megadiv .div3 .wrapper .sub1-men .one-left li, nav .megadiv .div4 .wrapper .sub1-men .one-left li {
+  display: flex;
+  list-style-type: none;
+  padding: 5px;
+  margin-top: 3px;
+}
+nav .megadiv .div1 .wrapper .sub1-men .one-left p, nav .megadiv .div2 .wrapper .sub1-men .one-left p, nav .megadiv .div3 .wrapper .sub1-men .one-left p, nav .megadiv .div4 .wrapper .sub1-men .one-left p {
+  font-size: 13px;
+  margin-top: 10px;
+  margin-left: 3px;
+}
+nav .megadiv .div1 .wrapper .sub1-men .one-left .round-icons, nav .megadiv .div2 .wrapper .sub1-men .one-left .round-icons, nav .megadiv .div3 .wrapper .sub1-men .one-left .round-icons, nav .megadiv .div4 .wrapper .sub1-men .one-left .round-icons {
+  width: 30px;
+  height: 30px;
+}
+nav .megadiv .div1 .wrapper .sub1-men .one-rght, nav .megadiv .div2 .wrapper .sub1-men .one-rght, nav .megadiv .div3 .wrapper .sub1-men .one-rght, nav .megadiv .div4 .wrapper .sub1-men .one-rght {
+  width: 250px;
+  background-color: #eff1ff;
+}
+nav .megadiv .div1 .wrapper .sub1-men .one-rght ul, nav .megadiv .div2 .wrapper .sub1-men .one-rght ul, nav .megadiv .div3 .wrapper .sub1-men .one-rght ul, nav .megadiv .div4 .wrapper .sub1-men .one-rght ul {
+  display: block;
+  padding: 15px;
+}
+nav .megadiv .div1 .wrapper .sub1-men .one-rght ul .drot, nav .megadiv .div2 .wrapper .sub1-men .one-rght ul .drot, nav .megadiv .div3 .wrapper .sub1-men .one-rght ul .drot, nav .megadiv .div4 .wrapper .sub1-men .one-rght ul .drot {
+  font-size: 6px;
+  opacity: 0.6;
+}
+nav .megadiv .div1 .wrapper .sub1-men .one-rght ul li, nav .megadiv .div2 .wrapper .sub1-men .one-rght ul li, nav .megadiv .div3 .wrapper .sub1-men .one-rght ul li, nav .megadiv .div4 .wrapper .sub1-men .one-rght ul li {
+  display: flex;
+  list-style-type: none;
+  padding: 9px;
+  margin-top: 3px;
+}
+nav .megadiv .div1 .wrapper .sub1-men .one-rght ul p, nav .megadiv .div2 .wrapper .sub1-men .one-rght ul p, nav .megadiv .div3 .wrapper .sub1-men .one-rght ul p, nav .megadiv .div4 .wrapper .sub1-men .one-rght ul p {
+  font-size: 13px;
+  margin-left: 3px;
+}
+
+h4 {
+  font-size: 13px;
+  font-weight: 600;
+  color: #40196d;
+}
+
+.nav-right {
+  width: 20%;
+  position: absolute;
+  top: 10px;
+  left: 77%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rght-txt {
+  margin-top: 14px;
+  cursor: pointer;
+}
+
+.btn {
+  padding: 10px 30px;
+  background-color: #40196d;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+}
+
+.mapnig {
+  cursor: pointer;
+  margin-top: 6px;
+}
+
+.sect-1 {
+  width: 100%;
+  padding: 80px 85px;
+  background-color: transparent;
+  display: flex;
+}
+.sect-1 .sect1-lft {
+  width: 40%;
+  padding: 20px;
+}
+.sect-1 .sect1-lft h1 {
+  font-size: 40px;
+  color: #40196d;
+  line-height: 48px;
+  letter-spacing: normal;
+  font-weight: 800;
+}
+.sect-1 .sect1-lft p {
+  font-weight: 520;
+  letter-spacing: normal;
+  line-height: 28px;
+  width: 80%;
+  margin-top: 25px;
+}
+.sect-1 .sect1-lft .bottom {
+  margin-top: 25px;
+  width: 100%;
+}
+.sect-1 .sect1-lft .bottom .mdia {
+  width: 60%;
+}
+.sect-1 .sect1-rgt {
+  width: 60%;
+  outline: 2px solid red;
+  z-index: 0;
+}
+.sect-1 .sect1-rgt .ooof {
+  z-index: -3;
+}
+.sect-1 .sect1-rgt .ooop {
+  z-index: 3;
+  position: relative;
+  left: 20%;
+}
+
+.sect2 {
+  width: 100%;
+  padding: 80px 85px;
+  background-color: transparent;
+}
+.sect2 .pack-1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.sect2 .pack-1 .item {
+  width: 30%;
+  height: 100px;
+  background-color: #ffffff;
+  box-shadow: 2px 0px 4px 2px #eff1ff;
+  border-radius: 4px;
+}
+.sect2 .pack-1 .item .rocky-icons {
+  width: 15px;
+  height: 15px;
+}
+.sect2 .pack-1 .item p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #40196d;
+}/*# sourceMappingURL=mine.css.map */

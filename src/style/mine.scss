@@ -1,0 +1,289 @@
+@import'shorts';
+@import 'colors';
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width:$widest;
+    font-family: $globfont;
+}
+
+nav{
+    display: $fle;
+    width: $widest;
+    height: 65px;
+    background-color:$light;
+    box-shadow: 8px 0px 10px 0px;
+    
+    .nav-left{
+        // position:$pabs;
+        width: 20%;
+        margin-top: -30px;
+        margin-left: 70px;
+        cursor: $pont;
+    }
+
+.nav-centre{
+     position:$pabs;
+    // left: 180px;
+    display: $fle;
+    justify-content: space-evenly;
+    width: 40%;
+   // outline: $mark;
+    left: 270px;
+}
+    ul{
+        display: $fle;
+        justify-content: $spac;
+        //outline: $mark;
+        margin-top: 3%;
+        width: 100%;
+        margin-left: -10px;
+
+        li{
+            list-style-type: $null;
+            width: 150px;
+            //outline: $mark;
+            font-size: 14px;
+            font-weight: $weit;
+        }
+    }
+    
+    
+    .megadiv{
+        display: $fle;
+        justify-content: $spac;
+        width: 400px;
+        margin-left: -20px;
+        margin-top: 10px;
+        cursor: $pont;
+       //outline: $mark;
+
+       
+       .div1, .div2, .div3, .div4{
+           cursor: $pont;
+           outline: $mark;
+           width: 120px;
+           
+           
+       span{
+        margin-left: 10px;
+      //  outline: $mark;
+       }
+       
+       
+       .wrapper{
+        display: $bbbl;
+
+        
+        //  display: $bbbl;
+
+       .sub1-men{
+        outline: $mark;
+        position: $pabs;
+        background-color: $light;
+        border-radius: $radd;
+        width: 500px;
+        display: $fle;
+
+        .one-left{
+            width: 250px;
+            background-color: $light;
+            outline: 2px solid blue;
+
+            ul{
+                display: block;
+                //outline: 2px solid green;
+                width: 250px;
+               // margin-left: 23px;
+                padding: 10px;
+            }
+            
+            li{
+                display: $fle;
+                list-style-type: $null;
+                padding: 5px;
+                margin-top: 3px;
+            }
+            
+            p{
+                font-size: 13px;
+                margin-top: 10px;
+                margin-left: 3px;
+            }
+            
+            .round-icons{
+                width: 30px;
+                height: 30px;
+            }
+        }
+        
+        .one-rght{
+            width: 250px;
+            background-color:$deep;
+            
+            ul{
+                display: block;
+                padding: 15px;
+                
+                
+                .drot{
+                    font-size: 6px;
+                    opacity: 0.6;
+                }
+                
+                li{
+                    display: $fle;
+                    list-style-type: $null;
+                    padding: 9px;
+                    margin-top: 3px;
+                    
+                    
+                }
+                
+                p{
+                    font-size: 13px;
+                    // margin-top: 10px;
+                    margin-left: 3px;
+                }
+            }
+        }
+    }
+    }
+}
+    
+}
+
+    }
+
+    h4{
+       font-size: 13px;
+       font-weight:$weight;
+       color: $main;
+   }
+
+   .nav-right{
+    width: 20%;
+   // outline: $mark;
+    position: $pabs;
+    top: 10px;
+    left: 77%;
+    display: $fle;
+    justify-content: $spac;
+   }
+
+   .rght-txt{
+    margin-top: 14px;
+    cursor:$pont ;
+   }
+
+   .btn{
+    padding: $pading;
+    background-color: $main;
+    color:$light;
+    font-size: 14px;
+    border-radius: 10px;
+    border: none;
+    font-weight: $weight;
+   }
+
+   .mapnig{
+    cursor: $pont;
+    margin-top: 6px;
+   }
+
+
+.sect-1{
+    width:$widest;
+    padding: $sectPadding;
+    background-color:$trpn;
+    display: $fle;
+
+    .sect1-lft{
+        //outline: $mark;
+        width: 40%;
+        padding:20px;
+
+
+    h1{
+        font-size: 40px;
+        color:$main;
+        line-height: 48px;
+        letter-spacing: normal;
+        font-weight:$weightier;
+    }
+
+    p{
+        font-weight: $weit;
+        letter-spacing: normal;
+        line-height: 28px;
+        width: 80%;
+        margin-top: 25px;
+    }
+
+
+    .bottom{
+      //outline: $mark;
+      margin-top: 25px;
+      width: 100%;
+
+      .mdia{
+        width: 60%;
+        //outline: $mark;
+      }
+    }
+    }
+
+    .sect1-rgt{
+        width: 60%;
+        outline:$mark;
+        z-index: 0;
+
+
+.ooof{
+   // position: $pabs;
+    z-index: -3;
+}
+
+.ooop{
+    z-index: 3;
+    position: relative;
+    left: 20%;
+}
+    }
+}
+
+.sect2{
+    width:$widest;
+    padding: $sectPadding;
+    background-color:$trpn;
+
+    .pack-1{
+        display: $fle;
+        width: 100%;
+        justify-content:$spack ;
+
+        .item{
+            width: 30%;
+            height: 100px;
+            background-color: $light;
+            box-shadow:2px 0px 4px 2px $deep;
+            border-radius: 4px;
+
+        .rocky-icons{
+            width: 15px;
+            height: 15px;
+        }
+
+        p{
+            font-size: 14px;
+            font-weight: $weight;
+            color: $main;
+        }
+
+    }
+    }
+}
