@@ -52,7 +52,6 @@ nav .megadiv {
 }
 nav .megadiv .div1, nav .megadiv .div2, nav .megadiv .div3, nav .megadiv .div4 {
   cursor: pointer;
-  outline: 2px solid red;
   width: 120px;
 }
 nav .megadiv .div1 span, nav .megadiv .div2 span, nav .megadiv .div3 span, nav .megadiv .div4 span {
@@ -62,17 +61,15 @@ nav .megadiv .div1 .wrapper, nav .megadiv .div2 .wrapper, nav .megadiv .div3 .wr
   display: block;
 }
 nav .megadiv .div1 .wrapper .sub1-men, nav .megadiv .div2 .wrapper .sub1-men, nav .megadiv .div3 .wrapper .sub1-men, nav .megadiv .div4 .wrapper .sub1-men {
-  outline: 2px solid red;
   position: absolute;
   background-color: #ffffff;
-  border-radius: 6px;
+  border-radius: 8px;
   width: 500px;
-  display: flex;
+  display: none;
 }
 nav .megadiv .div1 .wrapper .sub1-men .one-left, nav .megadiv .div2 .wrapper .sub1-men .one-left, nav .megadiv .div3 .wrapper .sub1-men .one-left, nav .megadiv .div4 .wrapper .sub1-men .one-left {
   width: 250px;
   background-color: #ffffff;
-  outline: 2px solid blue;
 }
 nav .megadiv .div1 .wrapper .sub1-men .one-left ul, nav .megadiv .div2 .wrapper .sub1-men .one-left ul, nav .megadiv .div3 .wrapper .sub1-men .one-left ul, nav .megadiv .div4 .wrapper .sub1-men .one-left ul {
   display: block;
@@ -96,7 +93,7 @@ nav .megadiv .div1 .wrapper .sub1-men .one-left .round-icons, nav .megadiv .div2
 }
 nav .megadiv .div1 .wrapper .sub1-men .one-rght, nav .megadiv .div2 .wrapper .sub1-men .one-rght, nav .megadiv .div3 .wrapper .sub1-men .one-rght, nav .megadiv .div4 .wrapper .sub1-men .one-rght {
   width: 250px;
-  background-color: #eff1ff;
+  background-color: #cecece;
 }
 nav .megadiv .div1 .wrapper .sub1-men .one-rght ul, nav .megadiv .div2 .wrapper .sub1-men .one-rght ul, nav .megadiv .div3 .wrapper .sub1-men .one-rght ul, nav .megadiv .div4 .wrapper .sub1-men .one-rght ul {
   display: block;
@@ -206,20 +203,52 @@ h4 {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
+  padding: 20px;
 }
 .sect2 .pack-1 .item {
   width: 30%;
-  height: 100px;
+  height: 120px;
   background-color: #ffffff;
-  box-shadow: 2px 0px 4px 2px #eff1ff;
+  box-shadow: 2px 0px 4px 2px #cecece;
   border-radius: 4px;
 }
 .sect2 .pack-1 .item .rocky-icons {
-  width: 15px;
-  height: 15px;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 15px;
 }
 .sect2 .pack-1 .item p {
   font-size: 14px;
   font-weight: 600;
   color: #40196d;
+  margin-left: 3%;
+}
+.sect2 .pack-2 {
+  width: 80%;
+  display: flex;
+  padding: 20px;
+  margin-left: 18%;
+}
+.sect2 .pack-2 .item {
+  width: 40%;
+  height: 120px;
+  background-color: #ffffff;
+  box-shadow: 2px 0px 4px 2px #cecece;
+  border-radius: 4px;
+}
+.sect2 .pack-2 .item .rocky-icons {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.sect2 .pack-2 .item p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #40196d;
+  margin-left: 3%;
+}
+.sect2 .pack-2 .item5 {
+  margin-left: 3%;
 }/*# sourceMappingURL=mine.css.map */

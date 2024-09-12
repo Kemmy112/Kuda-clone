@@ -65,7 +65,7 @@ nav{
        
        .div1, .div2, .div3, .div4{
            cursor: $pont;
-           outline: $mark;
+         //outline:2px solid blue;
            width: 120px;
            
            
@@ -77,22 +77,23 @@ nav{
        
        .wrapper{
         display: $bbbl;
+        //outline: 2px solid green;
 
         
         //  display: $bbbl;
 
        .sub1-men{
-        outline: $mark;
+        //outline: $mark;
         position: $pabs;
         background-color: $light;
         border-radius: $radd;
         width: 500px;
-        display: $fle;
+        display: none;
 
         .one-left{
             width: 250px;
             background-color: $light;
-            outline: 2px solid blue;
+            //outline: 2px solid blue;
 
             ul{
                 display: block;
@@ -124,6 +125,7 @@ nav{
         .one-rght{
             width: 250px;
             background-color:$deep;
+            
             
             ul{
                 display: block;
@@ -264,26 +266,74 @@ nav{
     .pack-1{
         display: $fle;
         width: 100%;
-        justify-content:$spack ;
+        justify-content:$spack;
+        padding: 20px;
+       
 
         .item{
             width: 30%;
-            height: 100px;
+            height: 120px;
             background-color: $light;
             box-shadow:2px 0px 4px 2px $deep;
             border-radius: 4px;
+           // padding: 8px;
 
         .rocky-icons{
-            width: 15px;
-            height: 15px;
+            width: 30px;
+            height: 30px;
+            margin-left: 10px;
+            margin-top: 15px;
         }
 
         p{
             font-size: 14px;
             font-weight: $weight;
             color: $main;
+            margin-left: 3%;
         }
 
     }
     }
+
+    .pack-2{
+        width: 80%;
+       // outline: $mark;
+        display: $fle;
+        padding: 20px;
+        margin-left: 18%;
+        //margin-top: 3%;
+
+
+        .item{
+            width: 40%;
+            height: 120px;
+            background-color: $light;
+            box-shadow:2px 0px 4px 2px $deep;
+            border-radius: 4px;
+
+            .rocky-icons{
+                width: 30px;
+                height: 30px;
+                margin-left: 10px;
+                margin-top: 15px;
+            }
+    
+            p{
+                font-size: 14px;
+                font-weight: $weight;
+                color: $main;
+                margin-left: 3%;
+            }
+
+        }
+        .item5{
+            margin-left: 3%;
+            //outline: 2px solid green;
+        }
+}
+}
+
+
+.sect-3{
+    
 }
