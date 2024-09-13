@@ -337,7 +337,7 @@ nav{
 .sect-3{
     width: 100%;
     display: $fle;
-    padding: 80px 85px;
+    padding: $sectPadding;
 
     .maj-left{
         width: 28%;
@@ -378,7 +378,7 @@ nav{
 
 .sect-4{
     width: 100%;
-    padding: 80px 85px;
+    padding: $sectPadding;
     display: $fle;
 
 
@@ -402,6 +402,46 @@ nav{
             font-size: 15px;
             margin-top: 6%;
             line-height: 24px;
+        }
+    }
+}
+
+.sect-5{
+    width: 100%;
+    padding: $sectPadding;
+    display: $fle;
+
+    .dd-left{
+        width: 40%;
+
+        h2{
+            font-size: 35px;
+            width: 99%;
+            color: $main;
+            font-weight: $weightier;
+        }
+
+        p{
+            font-size: 15px;
+            margin-top: 3%;
+            line-height: 22px;
+        }
+
+        a{
+            display: inline-block;
+            margin-top: 3%;
+            color: $main;
+            font-size: 15px;
+            font-weight: $weight;
+        }
+    }
+
+    .dd-right{
+        margin-left: 15%;
+
+        img{
+            width: 520px;
+            margin-top: -16%;
         }
     }
 }
