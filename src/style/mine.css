@@ -251,4 +251,64 @@ h4 {
 }
 .sect2 .pack-2 .item5 {
   margin-left: 3%;
+}
+
+.sect-3 {
+  width: 100%;
+  display: flex;
+  padding: 80px 85px;
+}
+.sect-3 .maj-left {
+  width: 28%;
+  margin-left: 6%;
+}
+.sect-3 .maj-left h2 {
+  font-size: 29px;
+  color: #40196d;
+  width: 65%;
+  font-weight: 800;
+  line-height: 37px;
+}
+.sect-3 .maj-left p {
+  font-size: 15px;
+  margin-top: 6%;
+}
+.sect-3 .maj-left a {
+  font-size: 14px;
+  color: #40196d;
+  display: inline-block;
+  margin-top: 8%;
+  font-weight: 600;
+}
+.sect-3 .maj-right {
+  width: 40%;
+  margin-left: 20%;
+}
+.sect-3 .maj-right .cartoon {
+  width: 550px;
+}
+
+.sect-4 {
+  width: 100%;
+  padding: 80px 85px;
+  display: flex;
+}
+.sect-4 .tt-left {
+  margin-left: 20px;
+  margin-top: -20%;
+}
+.sect-4 .tt-right {
+  width: 32%;
+  margin-left: 6%;
+}
+.sect-4 .tt-right h2 {
+  font-size: 29px;
+  color: #40196d;
+  font-weight: 800;
+  line-height: 37px;
+}
+.sect-4 .tt-right p {
+  font-size: 15px;
+  margin-top: 6%;
+  line-height: 24px;
 }/*# sourceMappingURL=mine.css.map */

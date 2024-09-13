@@ -335,5 +335,73 @@ nav{
 
 
 .sect-3{
-    
+    width: 100%;
+    display: $fle;
+    padding: 80px 85px;
+
+    .maj-left{
+        width: 28%;
+        margin-left: 6%;
+
+        h2{
+            font-size: 29px;
+            color: $main;
+            width: 65%;
+            font-weight: $weightier;
+            line-height: 37px;
+        }
+
+        p{
+            font-size: 15px;
+            margin-top: 6%;
+        }
+
+        a{
+            font-size: 14px;
+            color: $main;
+            //outline: $mark;
+            display: inline-block;
+            margin-top: 8%;
+            font-weight: $weight;
+        }
+    }
+
+    .maj-right{
+        width: 40%;
+        margin-left: 20%;
+
+        .cartoon{
+            width: 550px;
+        }
+    }
+}
+
+.sect-4{
+    width: 100%;
+    padding: 80px 85px;
+    display: $fle;
+
+
+    .tt-left{
+        margin-left: 20px;
+        margin-top: -20%;
+    }
+
+    .tt-right{
+        width: 32%;
+        margin-left: 6%;
+
+        h2{
+            font-size: 29px;
+            color: $main;
+            font-weight: $weightier;
+            line-height: 37px;
+        }
+
+        p{
+            font-size: 15px;
+            margin-top: 6%;
+            line-height: 24px;
+        }
+    }
 }
