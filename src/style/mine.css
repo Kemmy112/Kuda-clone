@@ -345,4 +345,109 @@ h4 {
 .sect-5 .dd-right img {
   width: 520px;
   margin-top: -16%;
+}
+
+.sect-6 {
+  width: 100%;
+  padding: 80px 85px;
+  display: flex;
+}
+.sect-6 .rr-left {
+  margin-left: 10px;
+  margin-top: -15%;
+}
+.sect-6 .card {
+  width: 600px;
+}
+.sect-6 a {
+  display: inline-block;
+  margin-top: 3%;
+  color: #40196d;
+  font-size: 15px;
+  font-weight: 600;
+}
+.sect-6 .rr-right {
+  width: 32%;
+  margin-left: 6%;
+}
+.sect-6 .rr-right h2 {
+  font-size: 29px;
+  color: #40196d;
+  font-weight: 800;
+  line-height: 37px;
+}
+.sect-6 .rr-right p {
+  font-size: 15px;
+  margin-top: 6%;
+  line-height: 24px;
+}
+
+.sect-7 {
+  width: 100%;
+  padding: 80px 85px;
+  display: flex;
+}
+.sect-7 .er-left {
+  width: 40%;
+}
+.sect-7 .er-left h2 {
+  font-size: 35px;
+  width: 99%;
+  color: #40196d;
+  font-weight: 800;
+}
+.sect-7 .er-left p {
+  font-size: 15px;
+  margin-top: 3%;
+  line-height: 22px;
+}
+.sect-7 .er-left a {
+  display: inline-block;
+  margin-top: 3%;
+  color: #40196d;
+  font-size: 15px;
+  font-weight: 600;
+}
+.sect-7 .er-right {
+  margin-left: 15%;
+}
+.sect-7 .er-right img {
+  width: 520px;
+  margin-top: -16%;
+}
+
+.sect-8 {
+  width: 100%;
+  padding: 80px 85px;
+  display: flex;
+  margin-top: 10%;
+}
+.sect-8 .tr-left {
+  margin-left: 10px;
+  margin-top: -15%;
+}
+.sect-8 .jar {
+  width: 500px;
+}
+.sect-8 a {
+  display: inline-block;
+  margin-top: 4%;
+  color: #40196d;
+  font-size: 15px;
+  font-weight: 600;
+}
+.sect-8 .tr-right {
+  width: 32%;
+  margin-left: 12%;
+}
+.sect-8 .tr-right h2 {
+  font-size: 30px;
+  color: #40196d;
+  font-weight: 800;
+  line-height: 37px;
+}
+.sect-8 .tr-right p {
+  font-size: 15px;
+  margin-top: 6%;
+  line-height: 24px;
 }/*# sourceMappingURL=mine.css.map */

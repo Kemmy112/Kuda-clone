@@ -442,6 +442,132 @@ nav{
         img{
             width: 520px;
             margin-top: -16%;
+            animation-name: ;
+        }
+    }
+}
+
+.sect-6{
+    width: 100%;
+    padding: $sectPadding;
+    display: $fle;
+
+
+    .rr-left{
+        margin-left: 10px;
+        margin-top: -15%;
+    }
+
+    .card{
+        width: 600px;
+    }
+
+    a{
+        display: inline-block;
+        margin-top: 3%;
+        color: $main;
+        font-size: 15px;
+        font-weight: $weight;
+    }
+
+    .rr-right{
+        width: 32%;
+        margin-left: 6%;
+
+        h2{
+            font-size: 29px;
+            color: $main;
+            font-weight: $weightier;
+            line-height: 37px;
+        }
+
+        p{
+            font-size: 15px;
+            margin-top: 6%;
+            line-height: 24px;
+        }
+    }
+}
+
+.sect-7{
+    width: 100%;
+    padding: $sectPadding;
+    display: $fle;
+
+    .er-left{
+        width: 40%;
+
+        h2{
+            font-size: 35px;
+            width: 99%;
+            color: $main;
+            font-weight: $weightier;
+        }
+
+        p{
+            font-size: 15px;
+            margin-top: 3%;
+            line-height: 22px;
+        }
+
+        a{
+            display: inline-block;
+            margin-top: 3%;
+            color: $main;
+            font-size: 15px;
+            font-weight: $weight;
+        }
+    }
+
+    .er-right{
+        margin-left: 15%;
+
+        img{
+            width: 520px;
+            margin-top: -16%;
+        }
+    }
+}
+
+.sect-8{
+    width: 100%;
+    padding: $sectPadding;
+    display: $fle;
+    margin-top: 10%;
+
+
+    .tr-left{
+        margin-left: 10px;
+        margin-top: -15%;
+    }
+
+    .jar{
+        width: 500px;
+    }
+
+    a{
+        display: inline-block;
+        margin-top: 4%;
+        color: $main;
+        font-size: 15px;
+        font-weight: $weight;
+    }
+
+    .tr-right{
+        width: 32%;
+        margin-left: 12%;
+
+        h2{
+            font-size: 30px;
+            color: $main;
+            font-weight: $weightier;
+            line-height: 37px;
+        }
+
+        p{
+            font-size: 15px;
+            margin-top: 6%;
+            line-height: 24px;
         }
     }
 }
