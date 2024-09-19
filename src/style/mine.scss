@@ -96,10 +96,8 @@ nav{
             //outline: 2px solid blue;
 
             ul{
-                display: block;
-                //outline: 2px solid green;
+                display: $bbbl;
                 width: 250px;
-               // margin-left: 23px;
                 padding: 10px;
             }
             
@@ -328,14 +326,13 @@ nav{
         }
         .item5{
             margin-left: 3%;
-            //outline: 2px solid green;
         }
 }
 }
 
 
 .sect-3{
-    width: 100%;
+    width: $widest;
     display: $fle;
     padding: $sectPadding;
 
@@ -360,7 +357,7 @@ nav{
             font-size: 14px;
             color: $main;
             //outline: $mark;
-            display: inline-block;
+            display: $blll;
             margin-top: 8%;
             font-weight: $weight;
         }
@@ -377,7 +374,7 @@ nav{
 }
 
 .sect-4{
-    width: 100%;
+    width: $widest;
     padding: $sectPadding;
     display: $fle;
 
@@ -407,7 +404,7 @@ nav{
 }
 
 .sect-5{
-    width: 100%;
+    width: $widest;
     padding: $sectPadding;
     display: $fle;
 
@@ -428,7 +425,7 @@ nav{
         }
 
         a{
-            display: inline-block;
+            display: $blll;
             margin-top: 3%;
             color: $main;
             font-size: 15px;
@@ -448,7 +445,7 @@ nav{
 }
 
 .sect-6{
-    width: 100%;
+    width: $widest;
     padding: $sectPadding;
     display: $fle;
 
@@ -463,7 +460,7 @@ nav{
     }
 
     a{
-        display: inline-block;
+        display: $blll;
         margin-top: 3%;
         color: $main;
         font-size: 15px;
@@ -490,7 +487,7 @@ nav{
 }
 
 .sect-7{
-    width: 100%;
+    width: $widest;
     padding: $sectPadding;
     display: $fle;
 
@@ -511,7 +508,7 @@ nav{
         }
 
         a{
-            display: inline-block;
+            display:$blll;
             margin-top: 3%;
             color: $main;
             font-size: 15px;
@@ -530,7 +527,7 @@ nav{
 }
 
 .sect-8{
-    width: 100%;
+    width: $widest;
     padding: $sectPadding;
     display: $fle;
     margin-top: 10%;
@@ -546,7 +543,7 @@ nav{
     }
 
     a{
-        display: inline-block;
+        display: $blll;
         margin-top: 4%;
         color: $main;
         font-size: 15px;
@@ -568,6 +565,57 @@ nav{
             font-size: 15px;
             margin-top: 6%;
             line-height: 24px;
+        }
+    }
+}
+
+
+.sect-9{
+    width: $widest;
+
+    h2{
+        text-align: center;
+        color: $main;
+        font-size: 32px;
+        font-weight: $weightier;
+    }
+
+    .roll{
+        width: $widest;
+        height: 200px;
+        outline: $mark;
+    }
+
+    .badges{
+        width: $widest;
+        display: $fle;
+        justify-content: $sparnd;
+
+        .pic1{
+            width: $sosie;
+            //color: $deep;
+        }
+
+        .pic2{
+            width: $sosie;
+        }
+
+        .pic3{
+            width:$sosie;
+        }
+
+        .pic4{
+            width: 200px;
+            height:50px;
+            margin-top: 14px;
+        }
+
+        .pic5{
+            width: $sosie;
+        }
+
+        .pic6{
+            width: $sosie;
         }
     }
 }

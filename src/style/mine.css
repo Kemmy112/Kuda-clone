@@ -450,4 +450,44 @@ h4 {
   font-size: 15px;
   margin-top: 6%;
   line-height: 24px;
+}
+
+.sect-9 {
+  width: 100%;
+}
+.sect-9 h2 {
+  text-align: center;
+  color: #40196d;
+  font-size: 32px;
+  font-weight: 800;
+}
+.sect-9 .roll {
+  width: 100%;
+  height: 200px;
+  outline: 2px solid red;
+}
+.sect-9 .badges {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.sect-9 .badges .pic1 {
+  width: 80px;
+}
+.sect-9 .badges .pic2 {
+  width: 80px;
+}
+.sect-9 .badges .pic3 {
+  width: 80px;
+}
+.sect-9 .badges .pic4 {
+  width: 200px;
+  height: 50px;
+  margin-top: 14px;
+}
+.sect-9 .badges .pic5 {
+  width: 80px;
+}
+.sect-9 .badges .pic6 {
+  width: 80px;
 }/*# sourceMappingURL=mine.css.map */
