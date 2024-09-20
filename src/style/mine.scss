@@ -619,3 +619,82 @@ nav{
         }
     }
 }
+
+.sect-10{
+    width: $widest;
+    height: 250px;
+    background-color:#f9f9f9;
+    margin-top: 10%;
+    padding: 20px;
+    
+
+    h2{
+        text-align: center;
+        font-size: 32px;
+        font-weight: $weightier;
+        color: $main;
+        margin-top: 3%;
+    }
+
+    .wheel{
+        display: $fle;
+        width: $widest;
+        justify-content: $sparnd;
+        margin-top: 5%;
+    }
+
+    .ddd{
+        width: 140px;
+    }
+}
+
+.sect-11{
+    width: $widest;
+    padding: $sectPadding;
+
+    h2{
+        text-align: center;
+        font-size: 31px;
+    }
+
+    .rrac{
+        width: 90%;
+        border: 1px solid $deep;
+        border-radius: 6px;
+        box-shadow: 2px 0px 4px 2px $deep;
+        margin-left: 6%;
+        margin-top: 3%;
+        //padding: 20px;
+
+        .heading{
+            display: $fle;
+            width: $wider;
+
+            p{
+                font-size: 14px;
+            }
+        }
+
+        .numone, .numtwo, .numthree, .numfour, .numfive, .numsix, .numseven, .numeight{
+            display: $fle;
+            justify-content: $spac;
+
+
+            .aaa{
+                p{
+                    font-size: 14px;
+                }
+            }
+
+            .bbb, .ccc{
+                display: $fle;
+                
+
+                p{
+                    font-size: 14px;
+                }
+            }
+
+        }
+    }
+}
