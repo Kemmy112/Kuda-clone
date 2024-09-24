@@ -523,6 +523,7 @@ h4 {
 .sect-11 h2 {
   text-align: center;
   font-size: 31px;
+  color: #40196d;
 }
 .sect-11 .rrac {
   width: 90%;
@@ -531,17 +532,24 @@ h4 {
   box-shadow: 2px 0px 4px 2px #cecece;
   margin-left: 6%;
   margin-top: 3%;
+  padding: 65px 75px;
+  outline: 2px solid red;
 }
 .sect-11 .rrac .heading {
   display: flex;
-  width: 80%;
+  justify-content: space-between;
+  width: 44%;
+  margin-left: 45%;
 }
 .sect-11 .rrac .heading p {
   font-size: 14px;
+  font-weight: 800;
+  color: #40196d;
 }
 .sect-11 .rrac .numone, .sect-11 .rrac .numtwo, .sect-11 .rrac .numthree, .sect-11 .rrac .numfour, .sect-11 .rrac .numfive, .sect-11 .rrac .numsix, .sect-11 .rrac .numseven, .sect-11 .rrac .numeight {
   display: flex;
   justify-content: space-between;
+  padding: 15px;
 }
 .sect-11 .rrac .numone .aaa p, .sect-11 .rrac .numtwo .aaa p, .sect-11 .rrac .numthree .aaa p, .sect-11 .rrac .numfour .aaa p, .sect-11 .rrac .numfive .aaa p, .sect-11 .rrac .numsix .aaa p, .sect-11 .rrac .numseven .aaa p, .sect-11 .rrac .numeight .aaa p {
   font-size: 14px;
@@ -551,4 +559,47 @@ h4 {
 }
 .sect-11 .rrac .numone .bbb p, .sect-11 .rrac .numone .ccc p, .sect-11 .rrac .numtwo .bbb p, .sect-11 .rrac .numtwo .ccc p, .sect-11 .rrac .numthree .bbb p, .sect-11 .rrac .numthree .ccc p, .sect-11 .rrac .numfour .bbb p, .sect-11 .rrac .numfour .ccc p, .sect-11 .rrac .numfive .bbb p, .sect-11 .rrac .numfive .ccc p, .sect-11 .rrac .numsix .bbb p, .sect-11 .rrac .numsix .ccc p, .sect-11 .rrac .numseven .bbb p, .sect-11 .rrac .numseven .ccc p, .sect-11 .rrac .numeight .bbb p, .sect-11 .rrac .numeight .ccc p {
   font-size: 14px;
+}
+
+.sect-12 {
+  width: 100%;
+}
+.sect-12 h2 {
+  text-align: center;
+  font-size: 30px;
+  color: #40196d;
+  font-weight: 800;
+}
+.sect-12 .folder {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  height: 250px;
+  margin-left: 10%;
+}
+.sect-12 .folder .mat {
+  width: 330px;
+  box-shadow: 2px 0px 4px 2px #cecece;
+  border-radius: 4px;
+  padding: 20px;
+}
+.sect-12 .folder .mat .suvb {
+  margin-top: 6%;
+}
+.sect-12 .folder .mat .suvb h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #40196d;
+}
+.sect-12 .folder .mat .suvb p {
+  margin-top: 3%;
+  line-height: 26px;
+  font-size: 15px;
+}
+.sect-12 .folder .mat a {
+  display: inline-block;
+  color: #40196d;
+  margin-top: 3%;
+  font-weight: 600;
 }/*# sourceMappingURL=mine.css.map */
