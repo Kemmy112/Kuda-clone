@@ -764,3 +764,85 @@ nav{
         }
     }
 }
+
+.sect-13{
+    width: $widest;
+    padding: 70px 35px;
+
+    .sect-blu-pg{
+        background-color: #eff1ff;
+        width: 80%;
+        height: 330px;
+        border: 1px solid #979797;
+        border-radius: 4px;
+        margin-left: 9%;
+        margin-top: 4%;
+        display: $fle;
+
+        .blu-pg-left{
+            //outline:  $mark;
+            width: 30%;
+            margin-left: 9%;
+            //padding: 20px;
+
+            h3{
+                font-size: 25px;
+                font-weight: $weightier;
+                margin-top: 20%;
+                color: $main;
+            }
+            
+            p{
+                font-size: 14px;
+                line-height: 20px;
+                margin-top: 25px;
+            }
+
+            .join{
+                margin-top: 8%;
+                padding: 15px 32px;
+                border-radius: 6px;
+                border: none;
+                background-color: $main;
+                color: #ffffff;
+                font-weight: $weight;
+            }
+        }
+
+        .blu-pg-right{
+            margin-left: 7%;
+            //overflow: hidden;
+
+            .binith{
+                z-index: -2;
+                height: 380px;
+            }
+
+            .hoverth{
+                z-index: 1;
+                position: $pabs;
+                left: 50%;
+                height: 300px;
+            }
+        }
+    }
+   
+}
+
+
+.footer{
+    margin-top: 4%;
+    border-top: 1px solid #979797;
+    width: $widest;
+    //padding: 80px 85px;
+    height: 1000px;
+
+    .footer-first{
+        width: 80%;
+        outline: $mark;
+        margin-left: 8%;
+        display: $fle;
+
+        
+    }
+}
