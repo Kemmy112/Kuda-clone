@@ -813,10 +813,6 @@ nav{
             margin-left: 7%;
             //overflow: hidden;
 
-            .binith{
-                z-index: -2;
-                height: 380px;
-            }
 
             .hoverth{
                 z-index: 1;
@@ -838,11 +834,99 @@ nav{
     height: 1000px;
 
     .footer-first{
+        margin-top: 5%;
         width: 80%;
-        outline: $mark;
+        //outline: $mark;
         margin-left: 8%;
         display: $fle;
+        justify-content: $spac;
+
+        h4{
+            font-size: 15px;
+        }
+        
+
+        ul{
+            list-style-type: none;
+            margin-top: 10px;
+
+            
+
+            li{
+                margin-top: 15px;
+            }
+            a{
+                text-decoration: none;
+                font-size: 13px;
+                color: #000000a2;
+                line-height: 24px;
+            }
+        }
 
         
+        
+    }
+
+    .footer-second{
+        width:$widest;
+
+        .second-div-patcher{
+            margin-top: 5%;
+            margin-left: 8%;
+            width: 28%;
+            display: $fle;
+            justify-content: $spac;
+        }
+
+        .second-some-text{
+                //outline: $mark;
+                width:$wider;
+                margin-top: 2%;
+                
+                p{
+                    font-size: 13px;
+                    color: $main;
+                    margin-left: 47%;
+
+                }
+            }
+
+    }
+
+    .footer-third{
+        width: $widest;
+        outline: $mark;
+        margin-top: 5%;
+
+        .third-cart{
+            display: $fle;
+            outline: 2px solid green;
+            width: 80%;
+            margin-left: 10%;
+
+            .t-cart-first{
+                width: 22%;
+                padding: 15px;
+                outline: $mark;
+
+                h4{
+                    text-align: left;
+                    font-size: 18px;
+                }
+
+                a{
+                    text-decoration: none;
+                    color: $main;
+                    font-weight: $weightier;
+                    font-size: 16px;
+                }
+
+                .app-topl{
+                    display: $fle;
+                    width: 70%;
+                    justify-content: $spac;
+                }
+            }
+        }
     }
 }

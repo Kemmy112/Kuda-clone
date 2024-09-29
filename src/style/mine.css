@@ -645,10 +645,6 @@ h4 {
 .sect-13 .sect-blu-pg .blu-pg-right {
   margin-left: 7%;
 }
-.sect-13 .sect-blu-pg .blu-pg-right .binith {
-  z-index: -2;
-  height: 380px;
-}
 .sect-13 .sect-blu-pg .blu-pg-right .hoverth {
   z-index: 1;
   position: absolute;
@@ -663,8 +659,75 @@ h4 {
   height: 1000px;
 }
 .footer .footer-first {
+  margin-top: 5%;
   width: 80%;
-  outline: 2px solid red;
   margin-left: 8%;
   display: flex;
+  justify-content: space-between;
+}
+.footer .footer-first h4 {
+  font-size: 15px;
+}
+.footer .footer-first ul {
+  list-style-type: none;
+  margin-top: 10px;
+}
+.footer .footer-first ul li {
+  margin-top: 15px;
+}
+.footer .footer-first ul a {
+  text-decoration: none;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.6352941176);
+  line-height: 24px;
+}
+.footer .footer-second {
+  width: 100%;
+}
+.footer .footer-second .second-div-patcher {
+  margin-top: 5%;
+  margin-left: 8%;
+  width: 28%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footer-second .second-some-text {
+  width: 80%;
+  margin-top: 2%;
+}
+.footer .footer-second .second-some-text p {
+  font-size: 13px;
+  color: #40196d;
+  margin-left: 47%;
+}
+.footer .footer-third {
+  width: 100%;
+  outline: 2px solid red;
+  margin-top: 5%;
+}
+.footer .footer-third .third-cart {
+  display: flex;
+  outline: 2px solid green;
+  width: 80%;
+  margin-left: 10%;
+}
+.footer .footer-third .third-cart .t-cart-first {
+  width: 22%;
+  padding: 15px;
+  outline: 2px solid red;
+}
+.footer .footer-third .third-cart .t-cart-first h4 {
+  text-align: left;
+  font-size: 18px;
+}
+.footer .footer-third .third-cart .t-cart-first a {
+  text-decoration: none;
+  color: #40196d;
+  font-weight: 800;
+  font-size: 16px;
+}
+.footer .footer-third .third-cart .t-cart-first .app-topl {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
 }/*# sourceMappingURL=mine.css.map */
