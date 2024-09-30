@@ -9,7 +9,12 @@
 body{
     width:$widest;
     font-family: $globfont;
+
 }
+
+body::-webkit-scrollbar {
+    display: none;
+  }
 
 nav{
     display: $fle;
@@ -19,6 +24,7 @@ nav{
     box-shadow: 8px 0px 10px 0px;
     //outline: $mark;
     position: fixed;
+    z-index: 4;
     
     .nav-left{
         // position:$pabs;
@@ -64,6 +70,14 @@ nav{
         cursor: $pont;
        //outline: $mark;
 
+
+       .div1:hover .wrapper{
+          // display: $bbbl;
+       //     outline: $mark;
+
+        }
+       
+    
        
        .div1, .div2, .div3, .div4{
            cursor: $pont;
@@ -78,7 +92,7 @@ nav{
        
        
        .wrapper{
-        display: $bbbl;
+        display: block;
         //outline: 2px solid green;
 
         
@@ -141,7 +155,81 @@ nav{
                     display: $fle;
                     list-style-type: $null;
                     padding: 9px;
-                    margin-top: 3px;
+                    margin-top: 1px;
+                    
+                    
+                }
+                
+                p{
+                    font-size: 13px;
+                    // margin-top: 10px;
+                    margin-left: 3px;
+                }
+            }
+        }
+    }
+
+
+    .sub2-men{
+        //outline: $mark;
+        position: $pabs;
+        background-color: $light;
+        border-radius: $radd;
+        width: 500px;
+        display: none;
+
+        .to-left{
+            width: 250px;
+            background-color: $light;
+            //outline: 2px solid blue;
+
+            ul{
+                display: $bbbl;
+                width: 250px;
+                padding: 10px;
+            }
+            
+            li{
+                display: $fle;
+                list-style-type: $null;
+                padding: 5px;
+                margin-top: 3px;
+                color: #000;
+            }
+            
+            a{
+                font-size: 13px;
+                margin-top: 10px;
+                margin-left: 3px;
+                text-decoration: none;
+            }
+            
+            .round-icons{
+                width: 30px;
+                height: 30px;
+            }
+        }
+        
+        .to-rght{
+            width: 250px;
+            background-color:$deep;
+            
+            
+            ul{
+                display: block;
+                padding: 15px;
+                
+                
+                .drot{
+                    font-size: 6px;
+                    opacity: 0.6;
+                }
+                
+                li{
+                    display: $fle;
+                    list-style-type: $null;
+                    padding: 9px;
+                    margin-top: 1px;
                     
                     
                 }
@@ -242,19 +330,15 @@ nav{
     .sect1-rgt{
         width: 60%;
         //outline:$mark;
-        z-index: 0;
+        //z-index: 0;
 
 
-.ooof{
-    outline: $mark;
-   // position: $pabs;
-    z-index: -1;
-}
+
 
 .ooop{
     z-index: 1;
-    position: absolute;
-    left: 20%;
+   // position: absolute;
+   // left: 20%;
 }
     }
 }
@@ -688,18 +772,21 @@ nav{
             display: $fle;
             justify-content: $spac;
             padding: 15px;
+            outline: $mark;
 
-
+           
             .aaa{
                 p{
                     font-size: 14px;
                 }
             }
 
+           
             .bbb, .ccc{
                 display: $fle;
-               // margin-left: -10px;
+               margin-left: -10px;
                 
+
 
                 p{
                     font-size: 14px;

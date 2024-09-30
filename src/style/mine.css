@@ -9,6 +9,10 @@ body {
   font-family: Muli, sans-serif;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 nav {
   display: flex;
   width: 100%;
@@ -16,6 +20,7 @@ nav {
   background-color: #ffffff;
   box-shadow: 8px 0px 10px 0px;
   position: fixed;
+  z-index: 4;
 }
 nav .nav-left {
   width: 20%;
@@ -108,9 +113,64 @@ nav .megadiv .div1 .wrapper .sub1-men .one-rght ul li, nav .megadiv .div2 .wrapp
   display: flex;
   list-style-type: none;
   padding: 9px;
-  margin-top: 3px;
+  margin-top: 1px;
 }
 nav .megadiv .div1 .wrapper .sub1-men .one-rght ul p, nav .megadiv .div2 .wrapper .sub1-men .one-rght ul p, nav .megadiv .div3 .wrapper .sub1-men .one-rght ul p, nav .megadiv .div4 .wrapper .sub1-men .one-rght ul p {
+  font-size: 13px;
+  margin-left: 3px;
+}
+nav .megadiv .div1 .wrapper .sub2-men, nav .megadiv .div2 .wrapper .sub2-men, nav .megadiv .div3 .wrapper .sub2-men, nav .megadiv .div4 .wrapper .sub2-men {
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 500px;
+  display: none;
+}
+nav .megadiv .div1 .wrapper .sub2-men .to-left, nav .megadiv .div2 .wrapper .sub2-men .to-left, nav .megadiv .div3 .wrapper .sub2-men .to-left, nav .megadiv .div4 .wrapper .sub2-men .to-left {
+  width: 250px;
+  background-color: #ffffff;
+}
+nav .megadiv .div1 .wrapper .sub2-men .to-left ul, nav .megadiv .div2 .wrapper .sub2-men .to-left ul, nav .megadiv .div3 .wrapper .sub2-men .to-left ul, nav .megadiv .div4 .wrapper .sub2-men .to-left ul {
+  display: block;
+  width: 250px;
+  padding: 10px;
+}
+nav .megadiv .div1 .wrapper .sub2-men .to-left li, nav .megadiv .div2 .wrapper .sub2-men .to-left li, nav .megadiv .div3 .wrapper .sub2-men .to-left li, nav .megadiv .div4 .wrapper .sub2-men .to-left li {
+  display: flex;
+  list-style-type: none;
+  padding: 5px;
+  margin-top: 3px;
+  color: #000;
+}
+nav .megadiv .div1 .wrapper .sub2-men .to-left a, nav .megadiv .div2 .wrapper .sub2-men .to-left a, nav .megadiv .div3 .wrapper .sub2-men .to-left a, nav .megadiv .div4 .wrapper .sub2-men .to-left a {
+  font-size: 13px;
+  margin-top: 10px;
+  margin-left: 3px;
+  text-decoration: none;
+}
+nav .megadiv .div1 .wrapper .sub2-men .to-left .round-icons, nav .megadiv .div2 .wrapper .sub2-men .to-left .round-icons, nav .megadiv .div3 .wrapper .sub2-men .to-left .round-icons, nav .megadiv .div4 .wrapper .sub2-men .to-left .round-icons {
+  width: 30px;
+  height: 30px;
+}
+nav .megadiv .div1 .wrapper .sub2-men .to-rght, nav .megadiv .div2 .wrapper .sub2-men .to-rght, nav .megadiv .div3 .wrapper .sub2-men .to-rght, nav .megadiv .div4 .wrapper .sub2-men .to-rght {
+  width: 250px;
+  background-color: #cecece;
+}
+nav .megadiv .div1 .wrapper .sub2-men .to-rght ul, nav .megadiv .div2 .wrapper .sub2-men .to-rght ul, nav .megadiv .div3 .wrapper .sub2-men .to-rght ul, nav .megadiv .div4 .wrapper .sub2-men .to-rght ul {
+  display: block;
+  padding: 15px;
+}
+nav .megadiv .div1 .wrapper .sub2-men .to-rght ul .drot, nav .megadiv .div2 .wrapper .sub2-men .to-rght ul .drot, nav .megadiv .div3 .wrapper .sub2-men .to-rght ul .drot, nav .megadiv .div4 .wrapper .sub2-men .to-rght ul .drot {
+  font-size: 6px;
+  opacity: 0.6;
+}
+nav .megadiv .div1 .wrapper .sub2-men .to-rght ul li, nav .megadiv .div2 .wrapper .sub2-men .to-rght ul li, nav .megadiv .div3 .wrapper .sub2-men .to-rght ul li, nav .megadiv .div4 .wrapper .sub2-men .to-rght ul li {
+  display: flex;
+  list-style-type: none;
+  padding: 9px;
+  margin-top: 1px;
+}
+nav .megadiv .div1 .wrapper .sub2-men .to-rght ul p, nav .megadiv .div2 .wrapper .sub2-men .to-rght ul p, nav .megadiv .div3 .wrapper .sub2-men .to-rght ul p, nav .megadiv .div4 .wrapper .sub2-men .to-rght ul p {
   font-size: 13px;
   margin-left: 3px;
 }
@@ -183,16 +243,9 @@ h4 {
 }
 .sect-1 .sect1-rgt {
   width: 60%;
-  z-index: 0;
-}
-.sect-1 .sect1-rgt .ooof {
-  outline: 2px solid red;
-  z-index: -1;
 }
 .sect-1 .sect1-rgt .ooop {
   z-index: 1;
-  position: absolute;
-  left: 20%;
 }
 
 .sect2 {
@@ -551,12 +604,14 @@ h4 {
   display: flex;
   justify-content: space-between;
   padding: 15px;
+  outline: 2px solid red;
 }
 .sect-11 .rrac .numone .aaa p, .sect-11 .rrac .numtwo .aaa p, .sect-11 .rrac .numthree .aaa p, .sect-11 .rrac .numfour .aaa p, .sect-11 .rrac .numfive .aaa p, .sect-11 .rrac .numsix .aaa p, .sect-11 .rrac .numseven .aaa p, .sect-11 .rrac .numeight .aaa p {
   font-size: 14px;
 }
 .sect-11 .rrac .numone .bbb, .sect-11 .rrac .numone .ccc, .sect-11 .rrac .numtwo .bbb, .sect-11 .rrac .numtwo .ccc, .sect-11 .rrac .numthree .bbb, .sect-11 .rrac .numthree .ccc, .sect-11 .rrac .numfour .bbb, .sect-11 .rrac .numfour .ccc, .sect-11 .rrac .numfive .bbb, .sect-11 .rrac .numfive .ccc, .sect-11 .rrac .numsix .bbb, .sect-11 .rrac .numsix .ccc, .sect-11 .rrac .numseven .bbb, .sect-11 .rrac .numseven .ccc, .sect-11 .rrac .numeight .bbb, .sect-11 .rrac .numeight .ccc {
   display: flex;
+  margin-left: -10px;
 }
 .sect-11 .rrac .numone .bbb p, .sect-11 .rrac .numone .ccc p, .sect-11 .rrac .numtwo .bbb p, .sect-11 .rrac .numtwo .ccc p, .sect-11 .rrac .numthree .bbb p, .sect-11 .rrac .numthree .ccc p, .sect-11 .rrac .numfour .bbb p, .sect-11 .rrac .numfour .ccc p, .sect-11 .rrac .numfive .bbb p, .sect-11 .rrac .numfive .ccc p, .sect-11 .rrac .numsix .bbb p, .sect-11 .rrac .numsix .ccc p, .sect-11 .rrac .numseven .bbb p, .sect-11 .rrac .numseven .ccc p, .sect-11 .rrac .numeight .bbb p, .sect-11 .rrac .numeight .ccc p {
   font-size: 14px;
