@@ -17,6 +17,8 @@ nav{
     height: 65px;
     background-color:$light;
     box-shadow: 8px 0px 10px 0px;
+    //outline: $mark;
+    position: fixed;
     
     .nav-left{
         // position:$pabs;
@@ -239,18 +241,19 @@ nav{
 
     .sect1-rgt{
         width: 60%;
-        outline:$mark;
+        //outline:$mark;
         z-index: 0;
 
 
 .ooof{
+    outline: $mark;
    // position: $pabs;
-    z-index: -3;
+    z-index: -1;
 }
 
 .ooop{
-    z-index: 3;
-    position: relative;
+    z-index: 1;
+    position: absolute;
     left: 20%;
 }
     }
@@ -895,38 +898,120 @@ nav{
 
     .footer-third{
         width: $widest;
-        outline: $mark;
+        //outline: $mark;
         margin-top: 5%;
 
         .third-cart{
             display: $fle;
-            outline: 2px solid green;
-            width: 80%;
-            margin-left: 10%;
+            //outline: 2px solid green;
+            width: 90%;
+            margin-left: 7%;
+            height: 200px;
 
             .t-cart-first{
-                width: 22%;
-                padding: 15px;
-                outline: $mark;
+                width: 30%;
+                //padding: 15px;
+                //outline: $mark;
+                
 
                 h4{
                     text-align: left;
-                    font-size: 18px;
+                    font-size: 16px;
                 }
+                
+
+                p{
+
+                    margin-top: 6%;
+                }
+
 
                 a{
                     text-decoration: none;
                     color: $main;
                     font-weight: $weightier;
-                    font-size: 16px;
+                    font-size: 14px;
                 }
 
                 .app-topl{
                     display: $fle;
-                    width: 70%;
+                    width: 85%;
                     justify-content: $spac;
+                    //outline: $mark;
+                    margin-top: 10%;
+                }
+
+            }
+            .t-cart-second{
+                //width: 22%;
+                margin-left: 3%;
+    
+                h4{
+                    font-size: 16px;
+                }
+
+                p{
+                    font-size: 13px;
+                    margin-top: 10%;
                 }
             }
+
+            .t-cart-third{
+
+                h4{
+                    font-size: 16px;
+                }
+
+                p{
+                    font-size: 13px;
+                    margin-top: 8%;
+                }
+            }
+            .t-cart-fourth{
+
+                h4{
+                    font-size: 16px;
+                }
+
+                p{
+                    font-size: 13px;
+                    margin-top: 5%;
+                }
+            }
+            .t-cart-fifth{
+
+                h4{
+                    font-size: 16px;
+                }
+
+                p{
+                    font-size: 13px;
+                    margin-top: 4%;
+                }
+            }
+        }
+    }
+
+    .footer-fourth{
+        width: 90%;
+        margin-left: 7%;
+
+        p{
+            font-size: 13px;
+            color: #979797;
+            line-height: 21px;
+        }
+
+        .p-two{
+            margin-top: 2%;
+        }
+
+        .p-three{
+            margin-top: 2%;
+        }
+
+        .p-four{
+            margin-top: 2%;
         }
     }
 }

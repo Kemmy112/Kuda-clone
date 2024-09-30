@@ -15,6 +15,7 @@ nav {
   height: 65px;
   background-color: #ffffff;
   box-shadow: 8px 0px 10px 0px;
+  position: fixed;
 }
 nav .nav-left {
   width: 20%;
@@ -182,15 +183,15 @@ h4 {
 }
 .sect-1 .sect1-rgt {
   width: 60%;
-  outline: 2px solid red;
   z-index: 0;
 }
 .sect-1 .sect1-rgt .ooof {
-  z-index: -3;
+  outline: 2px solid red;
+  z-index: -1;
 }
 .sect-1 .sect1-rgt .ooop {
-  z-index: 3;
-  position: relative;
+  z-index: 1;
+  position: absolute;
   left: 20%;
 }
 
@@ -702,32 +703,82 @@ h4 {
 }
 .footer .footer-third {
   width: 100%;
-  outline: 2px solid red;
   margin-top: 5%;
 }
 .footer .footer-third .third-cart {
   display: flex;
-  outline: 2px solid green;
-  width: 80%;
-  margin-left: 10%;
+  width: 90%;
+  margin-left: 7%;
+  height: 200px;
 }
 .footer .footer-third .third-cart .t-cart-first {
-  width: 22%;
-  padding: 15px;
-  outline: 2px solid red;
+  width: 30%;
 }
 .footer .footer-third .third-cart .t-cart-first h4 {
   text-align: left;
-  font-size: 18px;
+  font-size: 16px;
+}
+.footer .footer-third .third-cart .t-cart-first p {
+  margin-top: 6%;
 }
 .footer .footer-third .third-cart .t-cart-first a {
   text-decoration: none;
   color: #40196d;
   font-weight: 800;
-  font-size: 16px;
+  font-size: 14px;
 }
 .footer .footer-third .third-cart .t-cart-first .app-topl {
   display: flex;
-  width: 70%;
+  width: 85%;
   justify-content: space-between;
+  margin-top: 10%;
+}
+.footer .footer-third .third-cart .t-cart-second {
+  margin-left: 3%;
+}
+.footer .footer-third .third-cart .t-cart-second h4 {
+  font-size: 16px;
+}
+.footer .footer-third .third-cart .t-cart-second p {
+  font-size: 13px;
+  margin-top: 10%;
+}
+.footer .footer-third .third-cart .t-cart-third h4 {
+  font-size: 16px;
+}
+.footer .footer-third .third-cart .t-cart-third p {
+  font-size: 13px;
+  margin-top: 8%;
+}
+.footer .footer-third .third-cart .t-cart-fourth h4 {
+  font-size: 16px;
+}
+.footer .footer-third .third-cart .t-cart-fourth p {
+  font-size: 13px;
+  margin-top: 5%;
+}
+.footer .footer-third .third-cart .t-cart-fifth h4 {
+  font-size: 16px;
+}
+.footer .footer-third .third-cart .t-cart-fifth p {
+  font-size: 13px;
+  margin-top: 4%;
+}
+.footer .footer-fourth {
+  width: 90%;
+  margin-left: 7%;
+}
+.footer .footer-fourth p {
+  font-size: 13px;
+  color: #979797;
+  line-height: 21px;
+}
+.footer .footer-fourth .p-two {
+  margin-top: 2%;
+}
+.footer .footer-fourth .p-three {
+  margin-top: 2%;
+}
+.footer .footer-fourth .p-four {
+  margin-top: 2%;
 }/*# sourceMappingURL=mine.css.map */
