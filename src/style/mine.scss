@@ -77,7 +77,9 @@ nav{
 
        // }
        
-    
+      //  .div2:hover .wrapper{
+        //    display: $bbbl;
+        //}
        
        .div1, .div2, .div3, .div4{
            cursor: $pont;
@@ -91,158 +93,96 @@ nav{
        }
        
        
-       .wrapper{
-        display: block;
-        //outline: 2px solid green;
+       //  display: $bbbl;
+       
+       .div1{
+
+            .wrapper{
+             display: none;
+             outline: 2px solid green;
+     
+             .sub1-men{
+              //outline: $mark;
+              position: $pabs;
+              background-color: $light;
+              border-radius: $radd;
+              width: 500px;
+              display: flex;
+      
+              .one-left{
+                  width: 250px;
+                  background-color: $light;
+                  //outline: 2px solid blue;
+      
+                  ul{
+                      display: $bbbl;
+                      width: 250px;
+                      padding: 10px;
+                  }
+                  
+                  li{
+                      display: $fle;
+                      list-style-type: $null;
+                      padding: 5px;
+                      margin-top: 3px;
+                  }
+                  
+                  p{
+                      font-size: 13px;
+                      margin-top: 10px;
+                      margin-left: 3px;
+                  }
+                  
+                  .round-icons{
+                      width: 30px;
+                      height: 30px;
+                  }
+              
+              
+              .one-rght{
+                  width: 250px;
+                  background-color:$deep;
+                  
+                  
+                  ul{
+                      display: block;
+                      padding: 15px;
+                      
+                      
+                      .drot{
+                          font-size: 6px;
+                          opacity: 0.6;
+                      }
+                      
+                      li{
+                          display: $fle;
+                          list-style-type: $null;
+                          padding: 9px;
+                          margin-top: 1px;
+                          
+                          
+                      }
+                      
+                      p{
+                          font-size: 13px;
+                          // margin-top: 10px;
+                          margin-left: 3px;
+                      }
+                  }
+            }
+
+             }
+         }
+
+        }
 
         
-        //  display: $bbbl;
-
-       .sub1-men{
-        //outline: $mark;
-        position: $pabs;
-        background-color: $light;
-        border-radius: $radd;
-        width: 500px;
-        display: none;
-
-        .one-left{
-            width: 250px;
-            background-color: $light;
-            //outline: 2px solid blue;
-
-            ul{
-                display: $bbbl;
-                width: 250px;
-                padding: 10px;
-            }
-            
-            li{
-                display: $fle;
-                list-style-type: $null;
-                padding: 5px;
-                margin-top: 3px;
-            }
-            
-            p{
-                font-size: 13px;
-                margin-top: 10px;
-                margin-left: 3px;
-            }
-            
-            .round-icons{
-                width: 30px;
-                height: 30px;
-            }
-        }
-        
-        .one-rght{
-            width: 250px;
-            background-color:$deep;
-            
-            
-            ul{
-                display: block;
-                padding: 15px;
-                
-                
-                .drot{
-                    font-size: 6px;
-                    opacity: 0.6;
-                }
-                
-                li{
-                    display: $fle;
-                    list-style-type: $null;
-                    padding: 9px;
-                    margin-top: 1px;
-                    
-                    
-                }
-                
-                p{
-                    font-size: 13px;
-                    // margin-top: 10px;
-                    margin-left: 3px;
-                }
-            }
-        }
     }
+    //.div2{
 
 
-    .sub2-men{
-        //outline: $mark;
-        position: $pabs;
-        background-color: $light;
-        border-radius: $radd;
-        width: 500px;
-        display: none;
-
-        .to-left{
-            width: 250px;
-            background-color: $light;
-            //outline: 2px solid blue;
-
-            ul{
-                display: $bbbl;
-                width: 250px;
-                padding: 10px;
-            }
-            
-            li{
-                display: $fle;
-                list-style-type: $null;
-                padding: 5px;
-                margin-top: 3px;
-                color: #000;
-            }
-            
-            a{
-                font-size: 13px;
-                margin-top: 10px;
-                margin-left: 3px;
-                text-decoration: none;
-            }
-            
-            .round-icons{
-                width: 30px;
-                height: 30px;
-            }
-        }
-        
-        .to-rght{
-            width: 250px;
-            background-color:$deep;
-            
-            
-            ul{
-                display: block;
-                padding: 15px;
-                
-                
-                .drot{
-                    font-size: 6px;
-                    opacity: 0.6;
-                }
-                
-                li{
-                    display: $fle;
-                    list-style-type: $null;
-                    padding: 9px;
-                    margin-top: 1px;
-                    
-                    
-                }
-                
-                p{
-                    font-size: 13px;
-                    // margin-top: 10px;
-                    margin-left: 3px;
-                }
-            }
-        }
-    }
-    }
+       
+   // }
 }
     
 }

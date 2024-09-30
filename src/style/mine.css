@@ -63,114 +63,60 @@ nav .megadiv .div1, nav .megadiv .div2, nav .megadiv .div3, nav .megadiv .div4 {
 nav .megadiv .div1 span, nav .megadiv .div2 span, nav .megadiv .div3 span, nav .megadiv .div4 span {
   margin-left: 10px;
 }
-nav .megadiv .div1 .wrapper, nav .megadiv .div2 .wrapper, nav .megadiv .div3 .wrapper, nav .megadiv .div4 .wrapper {
-  display: block;
+nav .megadiv .div1 .div1 .wrapper, nav .megadiv .div2 .div1 .wrapper, nav .megadiv .div3 .div1 .wrapper, nav .megadiv .div4 .div1 .wrapper {
+  display: none;
+  outline: 2px solid green;
 }
-nav .megadiv .div1 .wrapper .sub1-men, nav .megadiv .div2 .wrapper .sub1-men, nav .megadiv .div3 .wrapper .sub1-men, nav .megadiv .div4 .wrapper .sub1-men {
+nav .megadiv .div1 .div1 .wrapper .sub1-men, nav .megadiv .div2 .div1 .wrapper .sub1-men, nav .megadiv .div3 .div1 .wrapper .sub1-men, nav .megadiv .div4 .div1 .wrapper .sub1-men {
   position: absolute;
   background-color: #ffffff;
   border-radius: 8px;
   width: 500px;
-  display: none;
+  display: flex;
 }
-nav .megadiv .div1 .wrapper .sub1-men .one-left, nav .megadiv .div2 .wrapper .sub1-men .one-left, nav .megadiv .div3 .wrapper .sub1-men .one-left, nav .megadiv .div4 .wrapper .sub1-men .one-left {
+nav .megadiv .div1 .div1 .wrapper .sub1-men .one-left, nav .megadiv .div2 .div1 .wrapper .sub1-men .one-left, nav .megadiv .div3 .div1 .wrapper .sub1-men .one-left, nav .megadiv .div4 .div1 .wrapper .sub1-men .one-left {
   width: 250px;
   background-color: #ffffff;
 }
-nav .megadiv .div1 .wrapper .sub1-men .one-left ul, nav .megadiv .div2 .wrapper .sub1-men .one-left ul, nav .megadiv .div3 .wrapper .sub1-men .one-left ul, nav .megadiv .div4 .wrapper .sub1-men .one-left ul {
+nav .megadiv .div1 .div1 .wrapper .sub1-men .one-left ul, nav .megadiv .div2 .div1 .wrapper .sub1-men .one-left ul, nav .megadiv .div3 .div1 .wrapper .sub1-men .one-left ul, nav .megadiv .div4 .div1 .wrapper .sub1-men .one-left ul {
   display: block;
   width: 250px;
   padding: 10px;
 }
-nav .megadiv .div1 .wrapper .sub1-men .one-left li, nav .megadiv .div2 .wrapper .sub1-men .one-left li, nav .megadiv .div3 .wrapper .sub1-men .one-left li, nav .megadiv .div4 .wrapper .sub1-men .one-left li {
+nav .megadiv .div1 .div1 .wrapper .sub1-men .one-left li, nav .megadiv .div2 .div1 .wrapper .sub1-men .one-left li, nav .megadiv .div3 .div1 .wrapper .sub1-men .one-left li, nav .megadiv .div4 .div1 .wrapper .sub1-men .one-left li {
   display: flex;
   list-style-type: none;
   padding: 5px;
   margin-top: 3px;
 }
-nav .megadiv .div1 .wrapper .sub1-men .one-left p, nav .megadiv .div2 .wrapper .sub1-men .one-left p, nav .megadiv .div3 .wrapper .sub1-men .one-left p, nav .megadiv .div4 .wrapper .sub1-men .one-left p {
+nav .megadiv .div1 .div1 .wrapper .sub1-men .one-left p, nav .megadiv .div2 .div1 .wrapper .sub1-men .one-left p, nav .megadiv .div3 .div1 .wrapper .sub1-men .one-left p, nav .megadiv .div4 .div1 .wrapper .sub1-men .one-left p {
   font-size: 13px;
   margin-top: 10px;
   margin-left: 3px;
 }
-nav .megadiv .div1 .wrapper .sub1-men .one-left .round-icons, nav .megadiv .div2 .wrapper .sub1-men .one-left .round-icons, nav .megadiv .div3 .wrapper .sub1-men .one-left .round-icons, nav .megadiv .div4 .wrapper .sub1-men .one-left .round-icons {
+nav .megadiv .div1 .div1 .wrapper .sub1-men .one-left .round-icons, nav .megadiv .div2 .div1 .wrapper .sub1-men .one-left .round-icons, nav .megadiv .div3 .div1 .wrapper .sub1-men .one-left .round-icons, nav .megadiv .div4 .div1 .wrapper .sub1-men .one-left .round-icons {
   width: 30px;
   height: 30px;
 }
-nav .megadiv .div1 .wrapper .sub1-men .one-rght, nav .megadiv .div2 .wrapper .sub1-men .one-rght, nav .megadiv .div3 .wrapper .sub1-men .one-rght, nav .megadiv .div4 .wrapper .sub1-men .one-rght {
+nav .megadiv .div1 .div1 .wrapper .sub1-men .one-left .one-rght, nav .megadiv .div2 .div1 .wrapper .sub1-men .one-left .one-rght, nav .megadiv .div3 .div1 .wrapper .sub1-men .one-left .one-rght, nav .megadiv .div4 .div1 .wrapper .sub1-men .one-left .one-rght {
   width: 250px;
   background-color: #cecece;
 }
-nav .megadiv .div1 .wrapper .sub1-men .one-rght ul, nav .megadiv .div2 .wrapper .sub1-men .one-rght ul, nav .megadiv .div3 .wrapper .sub1-men .one-rght ul, nav .megadiv .div4 .wrapper .sub1-men .one-rght ul {
+nav .megadiv .div1 .div1 .wrapper .sub1-men .one-left .one-rght ul, nav .megadiv .div2 .div1 .wrapper .sub1-men .one-left .one-rght ul, nav .megadiv .div3 .div1 .wrapper .sub1-men .one-left .one-rght ul, nav .megadiv .div4 .div1 .wrapper .sub1-men .one-left .one-rght ul {
   display: block;
   padding: 15px;
 }
-nav .megadiv .div1 .wrapper .sub1-men .one-rght ul .drot, nav .megadiv .div2 .wrapper .sub1-men .one-rght ul .drot, nav .megadiv .div3 .wrapper .sub1-men .one-rght ul .drot, nav .megadiv .div4 .wrapper .sub1-men .one-rght ul .drot {
+nav .megadiv .div1 .div1 .wrapper .sub1-men .one-left .one-rght ul .drot, nav .megadiv .div2 .div1 .wrapper .sub1-men .one-left .one-rght ul .drot, nav .megadiv .div3 .div1 .wrapper .sub1-men .one-left .one-rght ul .drot, nav .megadiv .div4 .div1 .wrapper .sub1-men .one-left .one-rght ul .drot {
   font-size: 6px;
   opacity: 0.6;
 }
-nav .megadiv .div1 .wrapper .sub1-men .one-rght ul li, nav .megadiv .div2 .wrapper .sub1-men .one-rght ul li, nav .megadiv .div3 .wrapper .sub1-men .one-rght ul li, nav .megadiv .div4 .wrapper .sub1-men .one-rght ul li {
+nav .megadiv .div1 .div1 .wrapper .sub1-men .one-left .one-rght ul li, nav .megadiv .div2 .div1 .wrapper .sub1-men .one-left .one-rght ul li, nav .megadiv .div3 .div1 .wrapper .sub1-men .one-left .one-rght ul li, nav .megadiv .div4 .div1 .wrapper .sub1-men .one-left .one-rght ul li {
   display: flex;
   list-style-type: none;
   padding: 9px;
   margin-top: 1px;
 }
-nav .megadiv .div1 .wrapper .sub1-men .one-rght ul p, nav .megadiv .div2 .wrapper .sub1-men .one-rght ul p, nav .megadiv .div3 .wrapper .sub1-men .one-rght ul p, nav .megadiv .div4 .wrapper .sub1-men .one-rght ul p {
-  font-size: 13px;
-  margin-left: 3px;
-}
-nav .megadiv .div1 .wrapper .sub2-men, nav .megadiv .div2 .wrapper .sub2-men, nav .megadiv .div3 .wrapper .sub2-men, nav .megadiv .div4 .wrapper .sub2-men {
-  position: absolute;
-  background-color: #ffffff;
-  border-radius: 8px;
-  width: 500px;
-  display: none;
-}
-nav .megadiv .div1 .wrapper .sub2-men .to-left, nav .megadiv .div2 .wrapper .sub2-men .to-left, nav .megadiv .div3 .wrapper .sub2-men .to-left, nav .megadiv .div4 .wrapper .sub2-men .to-left {
-  width: 250px;
-  background-color: #ffffff;
-}
-nav .megadiv .div1 .wrapper .sub2-men .to-left ul, nav .megadiv .div2 .wrapper .sub2-men .to-left ul, nav .megadiv .div3 .wrapper .sub2-men .to-left ul, nav .megadiv .div4 .wrapper .sub2-men .to-left ul {
-  display: block;
-  width: 250px;
-  padding: 10px;
-}
-nav .megadiv .div1 .wrapper .sub2-men .to-left li, nav .megadiv .div2 .wrapper .sub2-men .to-left li, nav .megadiv .div3 .wrapper .sub2-men .to-left li, nav .megadiv .div4 .wrapper .sub2-men .to-left li {
-  display: flex;
-  list-style-type: none;
-  padding: 5px;
-  margin-top: 3px;
-  color: #000;
-}
-nav .megadiv .div1 .wrapper .sub2-men .to-left a, nav .megadiv .div2 .wrapper .sub2-men .to-left a, nav .megadiv .div3 .wrapper .sub2-men .to-left a, nav .megadiv .div4 .wrapper .sub2-men .to-left a {
-  font-size: 13px;
-  margin-top: 10px;
-  margin-left: 3px;
-  text-decoration: none;
-}
-nav .megadiv .div1 .wrapper .sub2-men .to-left .round-icons, nav .megadiv .div2 .wrapper .sub2-men .to-left .round-icons, nav .megadiv .div3 .wrapper .sub2-men .to-left .round-icons, nav .megadiv .div4 .wrapper .sub2-men .to-left .round-icons {
-  width: 30px;
-  height: 30px;
-}
-nav .megadiv .div1 .wrapper .sub2-men .to-rght, nav .megadiv .div2 .wrapper .sub2-men .to-rght, nav .megadiv .div3 .wrapper .sub2-men .to-rght, nav .megadiv .div4 .wrapper .sub2-men .to-rght {
-  width: 250px;
-  background-color: #cecece;
-}
-nav .megadiv .div1 .wrapper .sub2-men .to-rght ul, nav .megadiv .div2 .wrapper .sub2-men .to-rght ul, nav .megadiv .div3 .wrapper .sub2-men .to-rght ul, nav .megadiv .div4 .wrapper .sub2-men .to-rght ul {
-  display: block;
-  padding: 15px;
-}
-nav .megadiv .div1 .wrapper .sub2-men .to-rght ul .drot, nav .megadiv .div2 .wrapper .sub2-men .to-rght ul .drot, nav .megadiv .div3 .wrapper .sub2-men .to-rght ul .drot, nav .megadiv .div4 .wrapper .sub2-men .to-rght ul .drot {
-  font-size: 6px;
-  opacity: 0.6;
-}
-nav .megadiv .div1 .wrapper .sub2-men .to-rght ul li, nav .megadiv .div2 .wrapper .sub2-men .to-rght ul li, nav .megadiv .div3 .wrapper .sub2-men .to-rght ul li, nav .megadiv .div4 .wrapper .sub2-men .to-rght ul li {
-  display: flex;
-  list-style-type: none;
-  padding: 9px;
-  margin-top: 1px;
-}
-nav .megadiv .div1 .wrapper .sub2-men .to-rght ul p, nav .megadiv .div2 .wrapper .sub2-men .to-rght ul p, nav .megadiv .div3 .wrapper .sub2-men .to-rght ul p, nav .megadiv .div4 .wrapper .sub2-men .to-rght ul p {
+nav .megadiv .div1 .div1 .wrapper .sub1-men .one-left .one-rght ul p, nav .megadiv .div2 .div1 .wrapper .sub1-men .one-left .one-rght ul p, nav .megadiv .div3 .div1 .wrapper .sub1-men .one-left .one-rght ul p, nav .megadiv .div4 .div1 .wrapper .sub1-men .one-left .one-rght ul p {
   font-size: 13px;
   margin-left: 3px;
 }
