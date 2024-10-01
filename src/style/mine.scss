@@ -71,11 +71,11 @@ nav{
        //outline: $mark;
 
 
-       //.div1:hover .wrapper{
-          // display: $bbbl;
-       //     outline: $mark;
+       .div1:hover .drop-down-menu-one{
+           display: $bbbl;
+       
 
-       // }
+        }
        
       //  .div2:hover .wrapper{
         //    display: $bbbl;
@@ -92,98 +92,89 @@ nav{
       //  outline: $mark;
        }
        
-       
-       //  display: $bbbl;
-       
-       .div1{
 
-            .wrapper{
-             display: none;
-             outline: 2px solid green;
-     
-             .sub1-men{
-              //outline: $mark;
-              position: $pabs;
-              background-color: $light;
-              border-radius: $radd;
-              width: 500px;
-              display: flex;
-      
-              .one-left{
-                  width: 250px;
-                  background-color: $light;
-                  //outline: 2px solid blue;
-      
-                  ul{
-                      display: $bbbl;
-                      width: 250px;
-                      padding: 10px;
-                  }
-                  
-                  li{
-                      display: $fle;
-                      list-style-type: $null;
-                      padding: 5px;
-                      margin-top: 3px;
-                  }
-                  
-                  p{
-                      font-size: 13px;
-                      margin-top: 10px;
-                      margin-left: 3px;
-                  }
-                  
-                  .round-icons{
-                      width: 30px;
-                      height: 30px;
-                  }
-              
-              
-              .one-rght{
-                  width: 250px;
-                  background-color:$deep;
-                  
-                  
-                  ul{
-                      display: block;
-                      padding: 15px;
-                      
-                      
-                      .drot{
-                          font-size: 6px;
-                          opacity: 0.6;
-                      }
-                      
-                      li{
-                          display: $fle;
-                          list-style-type: $null;
-                          padding: 9px;
-                          margin-top: 1px;
-                          
-                          
-                      }
-                      
-                      p{
-                          font-size: 13px;
-                          // margin-top: 10px;
-                          margin-left: 3px;
-                      }
-                  }
-            }
-
-             }
-         }
-
-        }
-
-        
     }
-    //.div2{
+
+    .div1{
 
 
-       
-   // }
-}
+        .drop-down-menu-one{
+            //outline: $mark;
+            border-radius: 5px;
+            width: 450px;
+            display: none;
+            position: $pabs;
+            z-index: 1;
+
+            .fst-wrapper{
+                display: $fle;
+
+                .fst-wrapper-first-child{
+                   // outline: 2px solid yellow;
+                    background-color: #ffffff;
+                    display: $bbbl;
+                    padding: 10px;
+                    
+                    ul{
+                        width: 225px;
+                        display:$bbbl;
+                        margin-top: 10px;
+                        white-space: nowrap;
+                    }
+
+                    li{
+                        padding: 10px;
+                    }
+
+                    a{
+                        width: $widest;
+                        text-decoration: none;
+                        font-size: 13px;
+                        color: #000;
+                        display: flex;
+                    }
+
+                    .menu-icon{
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+
+                .fst-wrapper-second-child{
+                    //width: 225px;
+                    background-color: #f9f9f9;
+                    display: $bbbl;
+                    padding: 10px 0;
+
+                    .drot{
+                        font-size: 12px;
+                    }
+
+                    ul{
+                        width: 227px;
+                        display: $bbbl;
+                    }
+
+                    li{
+                        padding: 10px;
+                    }
+
+                    a{
+                        width: $widest;
+                        text-decoration: none;
+                        font-size: 13px;
+                        color: #000;
+                        display: flex;  
+                    }
+
+                    .menu-icon{
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
     
 }
 

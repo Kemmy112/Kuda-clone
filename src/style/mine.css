@@ -56,6 +56,9 @@ nav .megadiv {
   margin-top: 10px;
   cursor: pointer;
 }
+nav .megadiv .div1:hover .drop-down-menu-one {
+  display: block;
+}
 nav .megadiv .div1, nav .megadiv .div2, nav .megadiv .div3, nav .megadiv .div4 {
   cursor: pointer;
   width: 120px;
@@ -63,62 +66,66 @@ nav .megadiv .div1, nav .megadiv .div2, nav .megadiv .div3, nav .megadiv .div4 {
 nav .megadiv .div1 span, nav .megadiv .div2 span, nav .megadiv .div3 span, nav .megadiv .div4 span {
   margin-left: 10px;
 }
-nav .megadiv .div1 .div1 .wrapper, nav .megadiv .div2 .div1 .wrapper, nav .megadiv .div3 .div1 .wrapper, nav .megadiv .div4 .div1 .wrapper {
+nav .megadiv .div1 .drop-down-menu-one {
+  border-radius: 5px;
+  width: 450px;
   display: none;
-  outline: 2px solid green;
-}
-nav .megadiv .div1 .div1 .wrapper .sub1-men, nav .megadiv .div2 .div1 .wrapper .sub1-men, nav .megadiv .div3 .div1 .wrapper .sub1-men, nav .megadiv .div4 .div1 .wrapper .sub1-men {
   position: absolute;
-  background-color: #ffffff;
-  border-radius: 8px;
-  width: 500px;
+  z-index: 1;
+}
+nav .megadiv .div1 .drop-down-menu-one .fst-wrapper {
   display: flex;
 }
-nav .megadiv .div1 .div1 .wrapper .sub1-men .one-left, nav .megadiv .div2 .div1 .wrapper .sub1-men .one-left, nav .megadiv .div3 .div1 .wrapper .sub1-men .one-left, nav .megadiv .div4 .div1 .wrapper .sub1-men .one-left {
-  width: 250px;
+nav .megadiv .div1 .drop-down-menu-one .fst-wrapper .fst-wrapper-first-child {
   background-color: #ffffff;
-}
-nav .megadiv .div1 .div1 .wrapper .sub1-men .one-left ul, nav .megadiv .div2 .div1 .wrapper .sub1-men .one-left ul, nav .megadiv .div3 .div1 .wrapper .sub1-men .one-left ul, nav .megadiv .div4 .div1 .wrapper .sub1-men .one-left ul {
   display: block;
-  width: 250px;
   padding: 10px;
 }
-nav .megadiv .div1 .div1 .wrapper .sub1-men .one-left li, nav .megadiv .div2 .div1 .wrapper .sub1-men .one-left li, nav .megadiv .div3 .div1 .wrapper .sub1-men .one-left li, nav .megadiv .div4 .div1 .wrapper .sub1-men .one-left li {
-  display: flex;
-  list-style-type: none;
-  padding: 5px;
-  margin-top: 3px;
-}
-nav .megadiv .div1 .div1 .wrapper .sub1-men .one-left p, nav .megadiv .div2 .div1 .wrapper .sub1-men .one-left p, nav .megadiv .div3 .div1 .wrapper .sub1-men .one-left p, nav .megadiv .div4 .div1 .wrapper .sub1-men .one-left p {
-  font-size: 13px;
+nav .megadiv .div1 .drop-down-menu-one .fst-wrapper .fst-wrapper-first-child ul {
+  width: 225px;
+  display: block;
   margin-top: 10px;
-  margin-left: 3px;
+  white-space: nowrap;
 }
-nav .megadiv .div1 .div1 .wrapper .sub1-men .one-left .round-icons, nav .megadiv .div2 .div1 .wrapper .sub1-men .one-left .round-icons, nav .megadiv .div3 .div1 .wrapper .sub1-men .one-left .round-icons, nav .megadiv .div4 .div1 .wrapper .sub1-men .one-left .round-icons {
+nav .megadiv .div1 .drop-down-menu-one .fst-wrapper .fst-wrapper-first-child li {
+  padding: 10px;
+}
+nav .megadiv .div1 .drop-down-menu-one .fst-wrapper .fst-wrapper-first-child a {
+  width: 100%;
+  text-decoration: none;
+  font-size: 13px;
+  color: #000;
+  display: flex;
+}
+nav .megadiv .div1 .drop-down-menu-one .fst-wrapper .fst-wrapper-first-child .menu-icon {
   width: 30px;
   height: 30px;
 }
-nav .megadiv .div1 .div1 .wrapper .sub1-men .one-left .one-rght, nav .megadiv .div2 .div1 .wrapper .sub1-men .one-left .one-rght, nav .megadiv .div3 .div1 .wrapper .sub1-men .one-left .one-rght, nav .megadiv .div4 .div1 .wrapper .sub1-men .one-left .one-rght {
-  width: 250px;
-  background-color: #cecece;
-}
-nav .megadiv .div1 .div1 .wrapper .sub1-men .one-left .one-rght ul, nav .megadiv .div2 .div1 .wrapper .sub1-men .one-left .one-rght ul, nav .megadiv .div3 .div1 .wrapper .sub1-men .one-left .one-rght ul, nav .megadiv .div4 .div1 .wrapper .sub1-men .one-left .one-rght ul {
+nav .megadiv .div1 .drop-down-menu-one .fst-wrapper .fst-wrapper-second-child {
+  background-color: #f9f9f9;
   display: block;
-  padding: 15px;
+  padding: 10px 0;
 }
-nav .megadiv .div1 .div1 .wrapper .sub1-men .one-left .one-rght ul .drot, nav .megadiv .div2 .div1 .wrapper .sub1-men .one-left .one-rght ul .drot, nav .megadiv .div3 .div1 .wrapper .sub1-men .one-left .one-rght ul .drot, nav .megadiv .div4 .div1 .wrapper .sub1-men .one-left .one-rght ul .drot {
-  font-size: 6px;
-  opacity: 0.6;
+nav .megadiv .div1 .drop-down-menu-one .fst-wrapper .fst-wrapper-second-child .drot {
+  font-size: 12px;
 }
-nav .megadiv .div1 .div1 .wrapper .sub1-men .one-left .one-rght ul li, nav .megadiv .div2 .div1 .wrapper .sub1-men .one-left .one-rght ul li, nav .megadiv .div3 .div1 .wrapper .sub1-men .one-left .one-rght ul li, nav .megadiv .div4 .div1 .wrapper .sub1-men .one-left .one-rght ul li {
-  display: flex;
-  list-style-type: none;
-  padding: 9px;
-  margin-top: 1px;
+nav .megadiv .div1 .drop-down-menu-one .fst-wrapper .fst-wrapper-second-child ul {
+  width: 227px;
+  display: block;
 }
-nav .megadiv .div1 .div1 .wrapper .sub1-men .one-left .one-rght ul p, nav .megadiv .div2 .div1 .wrapper .sub1-men .one-left .one-rght ul p, nav .megadiv .div3 .div1 .wrapper .sub1-men .one-left .one-rght ul p, nav .megadiv .div4 .div1 .wrapper .sub1-men .one-left .one-rght ul p {
+nav .megadiv .div1 .drop-down-menu-one .fst-wrapper .fst-wrapper-second-child li {
+  padding: 10px;
+}
+nav .megadiv .div1 .drop-down-menu-one .fst-wrapper .fst-wrapper-second-child a {
+  width: 100%;
+  text-decoration: none;
   font-size: 13px;
-  margin-left: 3px;
+  color: #000;
+  display: flex;
+}
+nav .megadiv .div1 .drop-down-menu-one .fst-wrapper .fst-wrapper-second-child .menu-icon {
+  width: 30px;
+  height: 30px;
 }
 
 h4 {
