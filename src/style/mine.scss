@@ -77,9 +77,17 @@ nav{
 
         }
        
-      //  .div2:hover .wrapper{
-        //    display: $bbbl;
-        //}
+        .div2:hover .drop-down-menu-two{
+           display: $bbbl;
+        }
+
+        .div3:hover .drop-down-menu-three{
+           display: $bbbl;
+        }
+
+        .div4:hover .drop-down-menu-four{
+           display: $bbbl;
+        }
        
        .div1, .div2, .div3, .div4{
            cursor: $pont;
@@ -175,6 +183,136 @@ nav{
             }
         }
     }
+
+    .div2{
+        .drop-down-menu-two{
+        //outline: $mark;
+        border-radius: 5px;
+        width: 450px;
+        display: none;
+        position: $pabs;
+        z-index: 1;
+
+
+
+            .sec-wrapper{
+                display: $fle;
+
+                .sec-wrapper-first-child{
+                    background-color: #ffffff;
+                    display: $bbbl;
+                   // padding: ;
+                    
+                    ul{
+                        width: 220px;
+                        display:$bbbl;
+                        margin-top: 10px;
+                        white-space: nowrap;
+                    }
+
+                    li{
+                        padding: 10px;
+                    }
+
+                    a{
+                        width: $widest;
+                        text-decoration: none;
+                        font-size: 13px;
+                        color: #000;
+                        display: flex;
+                    }
+
+                    .menu-icon{
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+
+                .sec-wrapper-second-child{
+                    background-color: #f9f9f9;
+                    display: $bbbl;
+                    padding: 10px;
+
+                    .drot{
+                        font-size: 12px;
+                    }
+
+                    ul{
+                        display: $bbbl;
+                        white-space: nowrap;
+                    }
+                    
+                    li{
+                        width: 215px;
+                        padding: 8px;
+                    }
+
+                    a{
+                        width: $widest;
+                        text-decoration: none;
+                        font-size: 13px;
+                        color: #000;
+                        display: flex;  
+                    }
+
+                    .menu-icon{
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+    .div3{
+        .drop-down-menu-three{
+            //outline: $mark;
+            width: 170px;
+            border-radius: 5px;
+            background-color: #ffffff;
+            display: none;
+            z-index: 1;
+
+            ul{
+                display: block;
+
+                li{
+                    padding: 10px;
+                    text-align: center;
+
+                    a{
+                        text-decoration: none;
+                        color: #000;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+
+    .div4{
+        .drop-down-menu-four{
+            //outline: $mark;
+            display: none;
+            width: 170px;
+            background-color: #ffffff;
+
+            ul{
+                display: block;
+
+                li{
+                    padding: 10px;
+                    text-align: center;
+
+                    a{
+                        text-decoration: none;
+                        color: #000;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
     
 }
 
@@ -214,6 +352,109 @@ nav{
    .mapnig{
     cursor: $pont;
     margin-top: 6px;
+
+
+    .map-drop-down{
+        width: 460px;
+        outline: $mark;
+        position: $pabs;
+        left: -200px;
+        display: $bbbl;
+
+        .map-wrapper{
+            display: $fle;
+
+            .map-wrap-first-child{
+                width: 250px;
+                background-color:#eff1ff ;
+                padding: 15px;
+
+                .mark-ex{
+                    outline: $mark;
+                    width: 40px;
+                    margin-left: 3%;
+                    z-index: 2;
+                    position: relative;
+
+                    .fa-duotone{
+                        outline: 2px solid blue;
+                        
+                    }
+                }
+
+                .top-logo{
+                    margin-top: 3%;
+                    margin-left: 15px;
+                }
+
+                .p-begin{
+                    font-size: 13px;
+                    margin-top: 7%;
+                }
+
+                .p-end{
+                    font-size: 13px;
+                    margin-top: 9%;
+                }
+
+                a{
+                    display: $blll;
+                    color: $main;
+                    font-size: 14px;
+                    //font-weight: $weightier;
+                    margin-top: 6%;
+                }
+            }
+
+            .map-wrap-second-child{
+                width: 210px;
+                display: $bbbl;
+                background-color: #ffffff;
+
+                ul{
+                    display: $bbbl;
+
+                    li{
+                        padding: 10px;
+                        white-space: nowrap;
+
+                        .tagg{
+                            background-color: #ffffff;
+                            border: 1px solid #979797;
+                            width: 80px;
+                            border-radius: 3px;
+                            position: $pabs;
+
+                            p{
+                                font-size: 11px;
+                            }
+                        }
+
+                        .tee{
+                            top: 183px;
+                            left: 350px;
+                        }
+
+                        .tage{
+                            top: 216px;
+                            left: 357px;
+                        }
+                        a{
+                            text-decoration: none;
+                            color: #000;
+                            font-size: 13px;
+
+                            .globe{
+                                width: 30px;
+                                height: 30px;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
    }
 
 

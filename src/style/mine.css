@@ -59,6 +59,15 @@ nav .megadiv {
 nav .megadiv .div1:hover .drop-down-menu-one {
   display: block;
 }
+nav .megadiv .div2:hover .drop-down-menu-two {
+  display: block;
+}
+nav .megadiv .div3:hover .drop-down-menu-three {
+  display: block;
+}
+nav .megadiv .div4:hover .drop-down-menu-four {
+  display: block;
+}
 nav .megadiv .div1, nav .megadiv .div2, nav .megadiv .div3, nav .megadiv .div4 {
   cursor: pointer;
   width: 120px;
@@ -127,6 +136,103 @@ nav .megadiv .div1 .drop-down-menu-one .fst-wrapper .fst-wrapper-second-child .m
   width: 30px;
   height: 30px;
 }
+nav .megadiv .div2 .drop-down-menu-two {
+  border-radius: 5px;
+  width: 450px;
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+nav .megadiv .div2 .drop-down-menu-two .sec-wrapper {
+  display: flex;
+}
+nav .megadiv .div2 .drop-down-menu-two .sec-wrapper .sec-wrapper-first-child {
+  background-color: #ffffff;
+  display: block;
+}
+nav .megadiv .div2 .drop-down-menu-two .sec-wrapper .sec-wrapper-first-child ul {
+  width: 220px;
+  display: block;
+  margin-top: 10px;
+  white-space: nowrap;
+}
+nav .megadiv .div2 .drop-down-menu-two .sec-wrapper .sec-wrapper-first-child li {
+  padding: 10px;
+}
+nav .megadiv .div2 .drop-down-menu-two .sec-wrapper .sec-wrapper-first-child a {
+  width: 100%;
+  text-decoration: none;
+  font-size: 13px;
+  color: #000;
+  display: flex;
+}
+nav .megadiv .div2 .drop-down-menu-two .sec-wrapper .sec-wrapper-first-child .menu-icon {
+  width: 30px;
+  height: 30px;
+}
+nav .megadiv .div2 .drop-down-menu-two .sec-wrapper .sec-wrapper-second-child {
+  background-color: #f9f9f9;
+  display: block;
+  padding: 10px;
+}
+nav .megadiv .div2 .drop-down-menu-two .sec-wrapper .sec-wrapper-second-child .drot {
+  font-size: 12px;
+}
+nav .megadiv .div2 .drop-down-menu-two .sec-wrapper .sec-wrapper-second-child ul {
+  display: block;
+  white-space: nowrap;
+}
+nav .megadiv .div2 .drop-down-menu-two .sec-wrapper .sec-wrapper-second-child li {
+  width: 215px;
+  padding: 8px;
+}
+nav .megadiv .div2 .drop-down-menu-two .sec-wrapper .sec-wrapper-second-child a {
+  width: 100%;
+  text-decoration: none;
+  font-size: 13px;
+  color: #000;
+  display: flex;
+}
+nav .megadiv .div2 .drop-down-menu-two .sec-wrapper .sec-wrapper-second-child .menu-icon {
+  width: 30px;
+  height: 30px;
+}
+nav .megadiv .div3 .drop-down-menu-three {
+  width: 170px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  display: none;
+  z-index: 1;
+}
+nav .megadiv .div3 .drop-down-menu-three ul {
+  display: block;
+}
+nav .megadiv .div3 .drop-down-menu-three ul li {
+  padding: 10px;
+  text-align: center;
+}
+nav .megadiv .div3 .drop-down-menu-three ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+}
+nav .megadiv .div4 .drop-down-menu-four {
+  display: none;
+  width: 170px;
+  background-color: #ffffff;
+}
+nav .megadiv .div4 .drop-down-menu-four ul {
+  display: block;
+}
+nav .megadiv .div4 .drop-down-menu-four ul li {
+  padding: 10px;
+  text-align: center;
+}
+nav .megadiv .div4 .drop-down-menu-four ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+}
 
 h4 {
   font-size: 13px;
@@ -161,6 +267,88 @@ h4 {
 .mapnig {
   cursor: pointer;
   margin-top: 6px;
+}
+.mapnig .map-drop-down {
+  width: 460px;
+  outline: 2px solid red;
+  position: absolute;
+  left: -200px;
+  display: block;
+}
+.mapnig .map-drop-down .map-wrapper {
+  display: flex;
+}
+.mapnig .map-drop-down .map-wrapper .map-wrap-first-child {
+  width: 250px;
+  background-color: #eff1ff;
+  padding: 15px;
+}
+.mapnig .map-drop-down .map-wrapper .map-wrap-first-child .mark-ex {
+  outline: 2px solid red;
+  width: 40px;
+  margin-left: 3%;
+  z-index: 2;
+  position: relative;
+}
+.mapnig .map-drop-down .map-wrapper .map-wrap-first-child .mark-ex .fa-duotone {
+  outline: 2px solid blue;
+}
+.mapnig .map-drop-down .map-wrapper .map-wrap-first-child .top-logo {
+  margin-top: 3%;
+  margin-left: 15px;
+}
+.mapnig .map-drop-down .map-wrapper .map-wrap-first-child .p-begin {
+  font-size: 13px;
+  margin-top: 7%;
+}
+.mapnig .map-drop-down .map-wrapper .map-wrap-first-child .p-end {
+  font-size: 13px;
+  margin-top: 9%;
+}
+.mapnig .map-drop-down .map-wrapper .map-wrap-first-child a {
+  display: inline-block;
+  color: #40196d;
+  font-size: 14px;
+  margin-top: 6%;
+}
+.mapnig .map-drop-down .map-wrapper .map-wrap-second-child {
+  width: 210px;
+  display: block;
+  background-color: #ffffff;
+}
+.mapnig .map-drop-down .map-wrapper .map-wrap-second-child ul {
+  display: block;
+}
+.mapnig .map-drop-down .map-wrapper .map-wrap-second-child ul li {
+  padding: 10px;
+  white-space: nowrap;
+}
+.mapnig .map-drop-down .map-wrapper .map-wrap-second-child ul li .tagg {
+  background-color: #ffffff;
+  border: 1px solid #979797;
+  width: 80px;
+  border-radius: 3px;
+  position: absolute;
+}
+.mapnig .map-drop-down .map-wrapper .map-wrap-second-child ul li .tagg p {
+  font-size: 11px;
+}
+.mapnig .map-drop-down .map-wrapper .map-wrap-second-child ul li .tee {
+  top: 183px;
+  left: 350px;
+}
+.mapnig .map-drop-down .map-wrapper .map-wrap-second-child ul li .tage {
+  top: 216px;
+  left: 357px;
+}
+.mapnig .map-drop-down .map-wrapper .map-wrap-second-child ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+}
+.mapnig .map-drop-down .map-wrapper .map-wrap-second-child ul li a .globe {
+  width: 30px;
+  height: 30px;
 }
 
 .sect-1 {
