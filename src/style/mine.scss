@@ -1624,11 +1624,11 @@ nav{
    }
 
    .nav-right{
-    width: 4%;
+    width: 7%;
    //outline: $mark;
     position: $pabs;
     top: 4px;
-    left: 17%;
+    left: 40%;
     display: $fle;
     justify-content: $spac;
    }
@@ -1778,8 +1778,9 @@ nav{
     .sect1-lft{
         margin-top: 20%;
         //outline: $mark;
-        width: 80%;
+        width: 90%;
         padding:20px;
+        margin-left: 4%;
 
 
     h1{
@@ -1820,7 +1821,7 @@ nav{
 
         img{
 
-            margin-left: -35px;
+            margin-left: -25px;
         }
       }
     }
@@ -1828,7 +1829,7 @@ nav{
 
     .sect1-rgt{
         width: $widest;
-        margin-left: -10px;
+        margin-left: 26px;
         //outline:$mark;
         //z-index: 0;
 
@@ -1852,7 +1853,7 @@ nav{
 
     .pack-1{
         display: $bbbl;
-        width: 76%;
+        width: $widest;
         padding: 5px;
         //outline: $mark;
        
@@ -1888,7 +1889,7 @@ nav{
     }
 
     .pack-2{
-        width: 76%;
+        width: $widest;
         //outline: $mark;
         display: $bbbl;
         padding: 5px;
@@ -1933,10 +1934,11 @@ nav{
     width: $widest;
     display: $bbbl;
     padding: 10px;
+    margin-top: 10%;
 
     .maj-left{
         width: 70%;
-        margin-left: 1%;
+        margin-left: 14%;
         //outline: $mark;
 
         h2{
@@ -1966,7 +1968,7 @@ nav{
 
     .maj-right{
         width: 40%;
-        margin-left: -1%;
+        margin-left: 6%;
 
         .cartoon{
             width: 300px;
@@ -1982,8 +1984,9 @@ nav{
 
 
     .tt-left{
-        margin-left: -8px;
+        margin-left: 8%px;
         margin-top: 6%;
+        //outline: $mark;
 
         img{
             width: 280px;
@@ -1992,7 +1995,8 @@ nav{
 
     .tt-right{
         width: 70%;
-        //margin-left: 6%;
+        margin-left: 14%;
+        //outline: $mark;
 
         h2{
             font-size: 17px;
@@ -2018,6 +2022,7 @@ nav{
 
     .dd-left{
         width: 75%;
+        margin-left: 12%;
 
         h2{
             font-size: 20px;
@@ -2046,7 +2051,7 @@ nav{
     }
 
     .dd-right{
-        margin-left: -1%;
+        margin-left: 6%;
 
         img{
             width: 270px;
@@ -2060,11 +2065,12 @@ nav{
     width: $widest;
     padding: 4px;
     display: $fle;
+    margin-top: 6%;
     flex-direction: column-reverse;
 
 
     .rr-left{
-        margin-left: -8px;
+        margin-left: 8%;
         margin-top: 6%;
 
         img{
@@ -2074,7 +2080,7 @@ nav{
 
     .rr-right{
         width: 70%;
-        //margin-left: 6%;
+        margin-left: 12%;
 
         h2{
             font-size: 17px;
@@ -2097,9 +2103,11 @@ nav{
     width: $widest;
     padding: 10px;
     display: $bbbl;
+    margin-top: 6%;
 
     .er-left{
         width: 75%;
+        margin-left: 10%;
 
         h2{
             font-size: 20px;
@@ -2130,7 +2138,7 @@ nav{
     
 
     .er-right{
-        margin-left: -1%;
+        margin-left: 8%;
 
         img{
             width: 250px;
@@ -2141,15 +2149,16 @@ nav{
 }
 
 .sect-8{
-    margin-top: 9%;
+    margin-top: 10%;
     width: $widest;
     padding: 4px;
     display: $fle;
     flex-direction: column-reverse;
+   // outline: $mark;
 
 
     .tr-left{
-        margin-left: -8px;
+        margin-left: 8%;
         margin-top: 6%;
 
         img{
@@ -2159,7 +2168,7 @@ nav{
 
     .tr-right{
         width: 70%;
-        margin-left: 6%;
+        margin-left: 13%;
 
         h2{
             font-size: 18px;
@@ -2182,11 +2191,12 @@ nav{
 
 .sect-9{
     width: $widest;
+    outline: $mark;
 
     h2{
         text-align: center;
         color: $main;
-        font-size: 32px;
+        font-size: 27px;
         font-weight: $weightier;
     }
 
@@ -2195,11 +2205,13 @@ nav{
         height: 200px;
         outline: $mark;
     }
-
+    
     .badges{
+        margin-left: 8%;
         width: $widest;
-        display: $fle;
-        justify-content: $sparnd;
+        display: $bbbl;
+        padding: 20px;
+        //justify-content: $spac;
 
         .pic1{
             width: $sosie;
@@ -2248,10 +2260,11 @@ nav{
     }
 
     .wheel{
-        display: $fle;
+        display: $bbbl;
         width: $widest;
-        justify-content: $sparnd;
+        //justify-content: $sparnd;
         margin-top: 5%;
+        outline: 2px solid blue;
     }
 
     .ddd{

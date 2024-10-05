@@ -1226,10 +1226,10 @@ h4 {
     color: #40196d;
   }
   .nav-right {
-    width: 4%;
+    width: 7%;
     position: absolute;
     top: 4px;
-    left: 17%;
+    left: 40%;
     display: flex;
     justify-content: space-between;
   }
@@ -1346,8 +1346,9 @@ h4 {
   }
   .sect-1 .sect1-lft {
     margin-top: 20%;
-    width: 80%;
+    width: 90%;
     padding: 20px;
+    margin-left: 4%;
   }
   .sect-1 .sect1-lft h1 {
     text-align: center;
@@ -1379,11 +1380,11 @@ h4 {
     width: 100%;
   }
   .sect-1 .sect1-lft .bottom .lisn img {
-    margin-left: -35px;
+    margin-left: -25px;
   }
   .sect-1 .sect1-rgt {
     width: 100%;
-    margin-left: -10px;
+    margin-left: 26px;
   }
   .sect-1 .sect1-rgt .ooop {
     width: 250px;
@@ -1396,7 +1397,7 @@ h4 {
   }
   .sect2 .pack-1 {
     display: block;
-    width: 76%;
+    width: 100%;
     padding: 5px;
   }
   .sect2 .pack-1 .item {
@@ -1422,7 +1423,7 @@ h4 {
     margin-left: 3%;
   }
   .sect2 .pack-2 {
-    width: 76%;
+    width: 100%;
     display: block;
     padding: 5px;
     margin-left: 1px;
@@ -1457,10 +1458,11 @@ h4 {
     width: 100%;
     display: block;
     padding: 10px;
+    margin-top: 10%;
   }
   .sect-3 .maj-left {
     width: 70%;
-    margin-left: 1%;
+    margin-left: 14%;
   }
   .sect-3 .maj-left h2 {
     font-size: 18px;
@@ -1485,7 +1487,7 @@ h4 {
   }
   .sect-3 .maj-right {
     width: 40%;
-    margin-left: -1%;
+    margin-left: 6%;
   }
   .sect-3 .maj-right .cartoon {
     width: 300px;
@@ -1497,7 +1499,7 @@ h4 {
     flex-direction: column-reverse;
   }
   .sect-4 .tt-left {
-    margin-left: -8px;
+    margin-left: 8% px;
     margin-top: 6%;
   }
   .sect-4 .tt-left img {
@@ -1505,6 +1507,7 @@ h4 {
   }
   .sect-4 .tt-right {
     width: 70%;
+    margin-left: 14%;
   }
   .sect-4 .tt-right h2 {
     font-size: 17px;
@@ -1525,6 +1528,7 @@ h4 {
   }
   .sect-5 .dd-left {
     width: 75%;
+    margin-left: 12%;
   }
   .sect-5 .dd-left h2 {
     font-size: 20px;
@@ -1548,7 +1552,7 @@ h4 {
     font-weight: 600;
   }
   .sect-5 .dd-right {
-    margin-left: -1%;
+    margin-left: 6%;
   }
   .sect-5 .dd-right img {
     width: 270px;
@@ -1558,10 +1562,11 @@ h4 {
     width: 100%;
     padding: 4px;
     display: flex;
+    margin-top: 6%;
     flex-direction: column-reverse;
   }
   .sect-6 .rr-left {
-    margin-left: -8px;
+    margin-left: 8%;
     margin-top: 6%;
   }
   .sect-6 .rr-left img {
@@ -1569,6 +1574,7 @@ h4 {
   }
   .sect-6 .rr-right {
     width: 70%;
+    margin-left: 12%;
   }
   .sect-6 .rr-right h2 {
     font-size: 17px;
@@ -1586,9 +1592,11 @@ h4 {
     width: 100%;
     padding: 10px;
     display: block;
+    margin-top: 6%;
   }
   .sect-7 .er-left {
     width: 75%;
+    margin-left: 10%;
   }
   .sect-7 .er-left h2 {
     font-size: 20px;
@@ -1612,21 +1620,21 @@ h4 {
     font-weight: 600;
   }
   .sect-7 .er-right {
-    margin-left: -1%;
+    margin-left: 8%;
   }
   .sect-7 .er-right img {
     width: 250px;
     margin-top: 16%;
   }
   .sect-8 {
-    margin-top: 9%;
+    margin-top: 10%;
     width: 100%;
     padding: 4px;
     display: flex;
     flex-direction: column-reverse;
   }
   .sect-8 .tr-left {
-    margin-left: -8px;
+    margin-left: 8%;
     margin-top: 6%;
   }
   .sect-8 .tr-left img {
@@ -1634,7 +1642,7 @@ h4 {
   }
   .sect-8 .tr-right {
     width: 70%;
-    margin-left: 6%;
+    margin-left: 13%;
   }
   .sect-8 .tr-right h2 {
     font-size: 18px;
@@ -1650,11 +1658,12 @@ h4 {
   }
   .sect-9 {
     width: 100%;
+    outline: 2px solid red;
   }
   .sect-9 h2 {
     text-align: center;
     color: #40196d;
-    font-size: 32px;
+    font-size: 27px;
     font-weight: 800;
   }
   .sect-9 .roll {
@@ -1663,9 +1672,10 @@ h4 {
     outline: 2px solid red;
   }
   .sect-9 .badges {
+    margin-left: 8%;
     width: 100%;
-    display: flex;
-    justify-content: space-around;
+    display: block;
+    padding: 20px;
   }
   .sect-9 .badges .pic1 {
     width: 80px;
@@ -1703,10 +1713,10 @@ h4 {
     margin-top: 3%;
   }
   .sect-10 .wheel {
-    display: flex;
+    display: block;
     width: 100%;
-    justify-content: space-around;
     margin-top: 5%;
+    outline: 2px solid blue;
   }
   .sect-10 .ddd {
     width: 140px;
