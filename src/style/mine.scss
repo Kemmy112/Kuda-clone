@@ -2207,37 +2207,43 @@ nav{
     }
     
     .badges{
-        margin-left: 8%;
+        //outline: $mark;
         width: $widest;
         display: $bbbl;
-        padding: 20px;
-        //justify-content: $spac;
+        padding: 15px;
+    
 
         .pic1{
             width: $sosie;
+            margin-left: 5%;
             //color: $deep;
         }
 
         .pic2{
             width: $sosie;
+            margin-left: 5%;
         }
 
         .pic3{
             width:$sosie;
+            margin-left: 5%;
         }
 
         .pic4{
-            width: 200px;
+            width: 100px;
             height:50px;
             margin-top: 14px;
+            margin-left: 5%;
         }
 
         .pic5{
-            width: $sosie;
+            width: 70px;
+            margin-left: 5%;
         }
 
         .pic6{
-            width: $sosie;
+            width: 70px;
+            margin-left: 5%;
         }
     }
 }
@@ -2248,7 +2254,7 @@ nav{
     background-color:#f9f9f9;
     margin-top: 10%;
     padding: 10px;
-    outline: $mark;
+    //outline: $mark;
     
 
     h2{
@@ -2260,11 +2266,11 @@ nav{
     }
 
     .wheel{
-        display: $bbbl;
+        display: $fle;
+        flex-wrap: wrap;
         width: $widest;
-        //justify-content: $sparnd;
         margin-top: 5%;
-        outline: 2px solid blue;
+        //outline: 2px solid blue;
     }
 
     .ddd{
@@ -2273,70 +2279,83 @@ nav{
 }
 
 .sect-11{
+    margin-top: 10%;
     width: $widest;
-    padding: $sectPadding;
+    //outline: 2px solid green;
+    padding: 0px;
 
-    h2{
-        text-align: center;
-        font-size: 31px;
-        color: $main;
-    }
-
-    .rrac{
-        width: 90%;
-        border: 1px solid $deep;
-        border-radius: 6px;
-        box-shadow: 2px 0px 4px 2px $deep;
-        margin-left: 6%;
-        margin-top: 3%;
-        padding: 65px 75px;
-        outline: $mark;
-
-        .heading{
-            display: $fle;
-            justify-content: $spac;
-            width: 44%;
-            margin-left: 45%;
-
-            p{
-                font-size: 14px;
-                font-weight: $weightier;
+    .mantle{
+        .carr{
+    
+         h2{
+                text-align: center;
+                font-size: 27px;
                 color: $main;
+               
             }
         }
-
-        .numone, .numtwo, .numthree, .numfour, .numfive, .numsix, .numseven, .numeight{
-            display: $fle;
-            justify-content: $spac;
-            padding: 15px;
-            outline: $mark;
-
-           
-            .aaa{
-                p{
-                    font-size: 14px;
-                }
-            }
-
-           
-            .bbb, .ccc{
+    
+    
+        .rrac{
+            width: 90%;
+            border: 1px solid $deep;
+            border-radius: 6px;
+            box-shadow: 2px 0px 4px 2px $deep;
+            margin-left: 5%;
+            margin-top: 3%;
+            padding: 0px;
+            //outline: $mark;
+    
+            .heading{
                 display: $fle;
-               margin-left: -10px;
+                justify-content: $spac;
+                width: 44%;
+                margin-left: 45%;
                 
-
-
+    
                 p{
                     font-size: 14px;
+                    font-weight: $weightier;
+                    color: $main;
                 }
             }
-
+    
+            .numone, .numtwo, .numthree, .numfour, .numfive, .numsix, .numseven, .numeight{
+                display: $fle;
+                justify-content: $spac;
+                padding: 15px;
+               // outline: $mark;
+    
+               
+                .aaa{
+                    p{
+                        font-size: 14px;
+                    }
+                }
+    
+               
+                .bbb, .ccc{
+                    display: $fle;
+                   margin-left: -10px;
+                    
+    
+    
+                    p{
+                        font-size: 14px;
+                    }
+                }
+    
+            }
         }
+        //outline: $mark
     }
+
 }
 
 
 .sect-12{
     width: $widest;
+    margin-top: 7%;
     
 
     h2{
@@ -2348,11 +2367,11 @@ nav{
 
     .folder{
         margin-top: 5%;
-        display: $fle;
+        display: $bbbl;
         justify-content: $sparnd;
         width: 80%;
         height: 250px;
-        margin-left: 10%;
+        margin-left: 5%;
         
 
         .mat{
@@ -2393,27 +2412,29 @@ nav{
 }
 
 .sect-13{
+    margin-top: 40%;
     width: $widest;
     padding: 70px 35px;
+    z-index: 4;
 
     .sect-blu-pg{
         background-color: #eff1ff;
         width: 80%;
-        height: 330px;
+        height: 290px;
         border: 1px solid #979797;
         border-radius: 4px;
         margin-left: 9%;
-        margin-top: 4%;
+        margin-top: 90%;
         display: $fle;
 
         .blu-pg-left{
             //outline:  $mark;
-            width: 30%;
-            margin-left: 9%;
+            width: 100%;
+            margin-left: 2%;
             //padding: 20px;
 
             h3{
-                font-size: 25px;
+                font-size: 20px;
                 font-weight: $weightier;
                 margin-top: 20%;
                 color: $main;
@@ -2422,7 +2443,7 @@ nav{
             p{
                 font-size: 14px;
                 line-height: 20px;
-                margin-top: 25px;
+                margin-top: 10px;
             }
 
             .join{
@@ -2433,10 +2454,12 @@ nav{
                 background-color: $main;
                 color: #ffffff;
                 font-weight: $weight;
+                display: none;
             }
         }
 
         .blu-pg-right{
+            display: none;
             margin-left: 7%;
             //overflow: hidden;
 
@@ -2454,7 +2477,7 @@ nav{
 
 
 .footer{
-    margin-top: 4%;
+    margin-top: 10%;
     border-top: 1px solid #979797;
     width: $widest;
     //padding: 80px 85px;
@@ -2466,7 +2489,8 @@ nav{
         //outline: $mark;
         margin-left: 8%;
         display: $fle;
-        justify-content: $spac;
+        flex-wrap: wrap;
+        //justify-content: $spac;
 
         h4{
             font-size: 15px;
@@ -2499,21 +2523,21 @@ nav{
 
         .second-div-patcher{
             margin-top: 5%;
-            margin-left: 8%;
+            margin-left: 2px;
             width: 28%;
             display: $fle;
-            justify-content: $spac;
+           
         }
 
         .second-some-text{
-                //outline: $mark;
-                width:$wider;
+               
+                width:$widest;
                 margin-top: 2%;
                 
                 p{
                     font-size: 13px;
                     color: $main;
-                    margin-left: 47%;
+                    margin-left: 15%;
 
                 }
             }
@@ -2527,6 +2551,7 @@ nav{
 
         .third-cart{
             display: $fle;
+            flex-wrap: wrap;
             //outline: 2px solid green;
             width: 90%;
             margin-left: 7%;
@@ -2617,8 +2642,10 @@ nav{
     }
 
     .footer-fourth{
+        margin-top: 20%;
         width: 90%;
-        margin-left: 7%;
+        margin-left: 3%;
+        outline: $mark;
 
         p{
             font-size: 13px;
